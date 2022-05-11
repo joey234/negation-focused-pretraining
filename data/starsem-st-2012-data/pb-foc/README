@@ -1,0 +1,146 @@
+===============================================================================
+*SEM 2012 Shared Task - Resolving the Scope and Focus of Negation
+  
+Official release, May 9, 2012.
+
+Paper describing the Shared Task:
+-------------------------------------------------------------------------------
+Roser Morante and Eduardo Blanco.
+*SEM 2012 Shared Task: Resolving the Scope and Focus of Negation.
+In Proceeding of the First Joint Conference on Lexical and Computational
+Semantics. Montreal, Canada
+-------------------------------------------------------------------------------
+
+Web site:
+http://www.clips.ua.ac.be/sem2012-st-neg/
+
+
+Roser Morante - CLiPS-Computational Linguistics, University of Antwerp, Belgium
+Eduardo Blanco - Lymba Corporation, USA
+
+Contact: Roser.Morante@ua.ac.be, eduardo@lymba.com
+===============================================================================
+
+
+This folder contains PB-FOC, focus annotation over Propbank. For each negation,
+the role that is most prominently negated is marked as focus, MNEG if the verb 
+is the focus.
+The annotations were first presented in (Blanco and Moldovan, 2011). 
+
+
+-------------------------------------------------------------------------------
+I. Data
+-------------------------------------------------------------------------------
+PB-FOC is distributed as standalone annotations on top of the Penn TreeBank.
+This distribution must be completed with the actual words from the TreeBank.
+During competition time, the words were distributed by the LDC free fo charge.
+
+1) Words from the Penn TreeBank
+
+First, you have to extract all words from the Penn TreeBank in folder words/.
+You have to create one file for sections 02 to 24 and name them 02.words,
+03.words, ... , 24.words (23 files total). Place each word in a new line and
+mark end of sentence with an empty line.
+
+After you do this, words/ should look like this:
+ 
+words/
+|-- 02.words, 50123 total lines; 48134 not empty, 1989 empty
+|-- 03.words, 37125 total lines, 35645 not empty, 1480 empty
+|-- 04.words, 56794 total lines, 54529 not empty, 2265 empty
+|-- 05.words, 53940 total lines, 51806 not empty, 2134 empty
+|-- 06.words, 46180 total lines, 44353 not empty, 1827 empty
+|-- 07.words, 53520 total lines, 51357 not empty, 2163 empty
+|-- 08.words, 11961 total lines, 11484 not empty,  477 empty
+|-- 09.words, 51982 total lines, 49913 not empty, 2069 empty
+|-- 10.words, 48473 total lines, 46531 not empty, 1942 empty
+|-- 11.words, 55240 total lines, 53004 not empty, 2236 empty
+|-- 12.words, 51403 total lines, 49279 not empty, 2124 empty
+|-- 13.words, 60660 total lines, 58179 not empty, 2481 empty
+|-- 14.words, 54501 total lines, 52319 not empty, 2182 empty
+|-- 15.words, 52560 total lines, 50442 not empty, 2118 empty
+|-- 16.words, 69442 total lines, 66657 not empty, 2785 empty
+|-- 17.words, 42357 total lines, 40586 not empty, 1771 empty
+|-- 18.words, 56304 total lines, 54042 not empty, 2262 empty
+|-- 19.words, 46196 total lines, 44352 not empty, 1844 empty
+|-- 20.words, 49389 total lines, 47377 not empty, 2012 empty
+|-- 21.words, 41710 total lines, 40039 not empty, 1671 empty
+|-- 23.words, 59100 total lines, 56684 not empty, 2416 empty
+`-- 24.words, 34199 total lines, 32853 not empty, 1346 empty
+
+
+2) Merging PB-FOC and the words
+
+Execute script src/make_corpus.sh:
+
+> sh src/make_corpus.sh
+
+and the files will be stored in corpus/merged/:
+
+corpus/merged/
+|-- SEM-2012-SharedTask-PB-FOC-de.merged -> development split
+|-- SEM-2012-SharedTask-PB-FOC-te.merged -> test split
+`-- SEM-2012-SharedTask-PB-FOC-tr.merged -> training split
+
+After merging takes place, you can work with the files in corpus/merged/ and 
+ignore the files in corpus/.
+
+--------------------------------------------------------------------------------
+II. Format
+--------------------------------------------------------------------------------
+
+The corpus is provided in CoNLL format. Each line corresponds to a token and 
+each annotation (chunks, named entities, etc.) is provided in a column; empty 
+lines indicate end of sentence. The content of the columns is as follows:
+
+Column  1:       word
+Column  2:       word number
+Column  3:       POS tag
+Column  4:       Named Entities
+Column  5:       Chunk
+Column  6:       Parse tree
+Columns 7, 8:    dependency relations (parent number and label)
+Columns 9-(n-2): Semantic roles, one column per verb
+Column  n-1:     if N, systems must predict focus for this verbal negation
+Column  n:       Focus
+
+
+--------------------------------------------------------------------------------
+III. Task
+--------------------------------------------------------------------------------
+
+The task consist on predicting the focus of negation (column n), for the verbal 
+negations marked with 'N' in column (n-1).
+
+We provide as context for each verbal negation the previous and next sentence:
+
+sent1 -> sentence before sent2 in the original corpus (provided as context to help detecting focus in sent2)
+sent2 -> sentence containing verbal_negation_1        (focus must be predicted)
+sent3 -> sentence after sent2 in the original corpus  (provided as context to help detecting focus in sent2)
+sent4 -> sentence before sent5 in the original corpus (provided as context to help detecting focus in sent5)
+sent5 -> sentence containing verbal_negation_2        (focus must be predicted)
+sent6 -> sentence after sent5 in the original corpus  (provided as context to help detecting focus in sent5)
+...   
+sent m
+
+For evaluating, use the file src/pb-foc_evaluation.py. You can execute
+this python command with --help to obtain help:
+
+> python src/pb-foc_evaluation.py --help
+Usage: pb-foc_evaluation.py [options] SYSTEM_OUTPUT GOLD
+
+Options:
+  -h, --help            show this help message and exit
+  -v VERBOSE_FILE, --verbose_file=VERBOSE_FILE
+                        Create a file spelling out errors.
+
+You may want to use option -v to obtain a file spelling out errors.
+
+--------------------------------------------------------------------------------
+IV. References
+--------------------------------------------------------------------------------
+
+Eduardo Blanco and Dan Moldovan. 2011.
+Semantic Representation of Negation Using Focus Detection.
+In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies (ACL-HLT 2011), Portland, OR, USA.
+

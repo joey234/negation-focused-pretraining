@@ -1,0 +1,63 @@
+===============================================================================
+*SEM 2012 Shared Task - Resolving the Scope and Focus of Negation
+  
+Official release, May 9, 2012.
+
+Paper describing the Shared Task:
+-------------------------------------------------------------------------------
+Roser Morante and Eduardo Blanco.
+*SEM 2012 Shared Task: Resolving the Scope and Focus of Negation.
+In Proceeding of the First Joint Conference on Lexical and Computational
+Semantics. Montreal, Canada
+-------------------------------------------------------------------------------
+
+Web site:
+http://www.clips.ua.ac.be/sem2012-st-neg/
+
+
+Roser Morante - CLiPS-Computational Linguistics, University of Antwerp, Belgium
+Eduardo Blanco - Lymba Corporation, USA
+
+Contact: Roser.Morante@ua.ac.be, eduardo@lymba.com
+===============================================================================
+
+
+This is the official release of the data and software used in the *SEM 2012 Shared Task on Resolving the Scope and Focus of Negation.
+
+
+SCOPE AND FOCUS OF NEGATION
+
+Negation is a pervasive and intricate linguistic phenomenon present in all languages (Horn 1989). Despite this fact, computational semanticists mostly ignore it; current proposals to represent the meaning of text either dismiss negation or only treat it in a superficial manner. This shared task tackles two key steps in order to obtain the meaning of negated statements: scope and focus detection. Regardless of the semantic representation one favors (predicate calculus, logic forms, binary semantic relations, etc.), these tasks are the basic building blocks to process the meaning of negated statements.
+
+Scope of negation is the part of the meaning that is negated and focus the part of the scope that is most prominently negated (Huddleston and Pullum 2002). In  example (1), scope is enclosed in square brackets and focus marked between % signs.
+
+(1)    [John had] never [said %as much% before].
+
+Scope marks all negated concepts. In (1) the statement is strictly true if an event saying did not take place, John was not the one who said, as much is not the quantity of said or before the time. Focus indicates the intended negated concepts and allows to reveal implicit positive meaning. The implicit positive meaning of (1) is that John had said less before. This shared tasks aims at detecting the scope and focus of negation.
+
+
+TASKS
+
+Two tasks are proposed:
+
+-- Task 1: scope detection. For each negation, the negation cue and scope are marked, as well as the negated event, if any. Cues and scopes may be discontinuous. Example (1) shows an annotated sentence, where the scope is enclosed between square brackets, the cue marked between angle brackets  and the negated event is marked between asterisks.
+
+        [I do]<n't> [*know* what made me look up], but there was a face looking in at me through the lower pane.
+
+
+-- Task 2: focus detection. Example (2) shows an annotated sentence indicating focus between % signs and semantic roles as provided by PropBank in curly brackets. Detecting focus is useful to detect positive implicit meaning (in (2), a decision is expected in June).
+
+        {A decision A1} is{n't M-NEG} expected {%until June% M-TMP}
+
+ 
+DATASETS
+
+
+Two datasets are provided, one for Task 1, and another for Task 2.
+
+-- [CD-SCO] for Task 1. 
+
+-- [PB-FOC] for Task 2. 
+
+The datasets and their description are to be found in the directories cd-sco and pb-foc of this package.
+

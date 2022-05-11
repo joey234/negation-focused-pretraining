@@ -1,0 +1,273 @@
+===============================================================================
+*SEM 2012 Shared Task - Resolving the Scope and Focus of Negation
+  
+Official release, May 9, 2012.
+
+Paper describing the Shared Task:
+-------------------------------------------------------------------------------
+Roser Morante and Eduardo Blanco.
+*SEM 2012 Shared Task: Resolving the Scope and Focus of Negation.
+In Proceeding of the First Joint Conference on Lexical and Computational
+Semantics. Montreal, Canada
+-------------------------------------------------------------------------------
+
+Web site:
+http://www.clips.ua.ac.be/sem2012-st-neg/
+
+
+Roser Morante - CLiPS-Computational Linguistics, University of Antwerp, Belgium
+Eduardo Blanco - Lymba Corporation, USA
+
+Contact: Roser.Morante@ua.ac.be, eduardo@lymba.com
+===============================================================================
+
+This folder "cd-sco" contains the CD-SCO files for Task 1 on Scope Detection.
+The subfolder "cd-sco/corpus" contains the corpora.
+The subfolder "cd-sco/src" contains the evaluation scripts.
+
+
+-------------
+CORPORA
+-------------
+
+The corpora are stories by  Conan Doyle.
+
+Training:  chapters 1-14 from the The Hound of the Baskervilles.
+
+Development:   The Adventure of Wisteria Lodge.
+
+Test: The Adventure of the Red Circle, The Adventure of the Cardboard Box.
+
+The original text from the Conan Doyle stories have been obtained from the Project Gutenberg at:
+
+http://www.gutenberg.org/ebooks/author/69
+
+-------------
+PREPROCESSING
+-------------
+
+ 
+In the original text files, sentences have been manually segmented. Each the file contains one sentence per line, with paragraph boundaries indicated by a sequence of double linebreaks.
+
+Whereas the original versions from Project Gutenberg are pure 7-bit ASCII, our '.txt' versions make use of a handful of UniCode characters to provide important distinctions; the file encoding of all files in this collection is UTF-8.
+
+In terms of UniCode characters, these mostly pertain to quotation marks: where the ASCII texts employ straight (so-called typewriter) quotes, these have been disambiguated into UniCode opening (aka left) and closing (aka right) quote marks, both for double (U+201c and U+201d) and single (U+2018 and U+2019) quotation marks.  The apostrophe (e.g. in |don’t| or |o’clock|) here is using the same UniCode code point as the closing single quote (U+2019).  Furthermore, ASCII double hyphens have been converted to UniCode m-dashes (U+x2014), as in for example (The Adventure of Wisteria Lodge, Chapter 1):
+
+  “How do you define the word ‘grotesque’?”
+  “Strange—remarkable,” I suggested.
+
+The sentence-segmented files have then been processed as follows: tokenization is otbained by the PTB-compliant tokenizer that is part of the LinGO English Resource Grammar; for details, please see:
+
+  http://moin.delph-in.net/ErgTokenization
+  http://moin.delph-in.net/ReppTop
+
+Pre-tokenized strings were then lemmatized using the GENIA tagger (in version 3.0.1, with the '-nt' command line option) and parsed with the re-ranking parser of Charniak & Johnson (2005), in the November 2009 release available from Brown University.  In preparing inputs for lemmatization and parsing, the following mapping from UniCode characters to PTB conventions was used (to better align with the training data used in constructing these tools):
+
+  “ --> ``
+  ” --> ''
+  … --> ...
+  — --> --
+  – --> --
+
+Note that GENIA PoS tags are complemented with TnT PoS tags, again for increased compatibility with the original PTB: GENIA does not make a common vs. proper noun distinction (NN(S)  vs. NNP(S), in the PTB tag set).  Tokens tagged as /NNS?/ by GENIA and tagged /NNPS?/ by TnT, thus take the TnT tag assignment; all other tokens have GENIA PoS tags.
+
+For compatibility with PTB conventions, the top-level nodes in C&J parse trees, which are always labelled 'S1', have been removed.  The C&J parser internally distinguishes auxiliary from other verbs, i.e. adding to the original PTB inventory tags like AUX (e.g. for the form is 'is') or AUXG (e.g. for 'being').  Where C&J trees have preterminal nodes matching /AUX.*/, the original PoS tags from GENIA (plus
+TnT) were used.
+
+The conversion of PTB-style syntactic analysis trees into CoNLL-style, line-oriented format was accomplished by the software available from the organizers of the 2005 CoNLL Shared Task; see:
+
+  http://www.lsi.upc.edu/~srlconll/
+
+The intermediate preprocessing files can be found at:
+
+http://www.delph-in.net/cdc/
+
+The corpus has been preprocessed by Stephan Oepen at the University of Oslo. In case you notice room for improvement in these files, or need more information on any of the intermediate steps, feel free to contact Stephan Oepen at the University of Oslo (oe@ifi.uio.no).
+
+
+
+-------------
+ANNOTATION
+-------------
+
+All occurrences of a negation are annotated, accounting for negation expressed by nouns, pronouns, verbs, adverbs, determiners, conjunctions and prepositions. For each negation cue, the negation cue and scope are marked, as well as the negated event or property, if any. Cues and scopes can be discontinuous. 
+
+More information about the annotation can be found in the annotation guidelines, which  are published in:
+
+Morante et al. (2011) Annotation of Negation Cues and their Scope. Guidelines v1.0, CLiPS Technical Report Series
+
+to be downloaded from:
+
+http://www.clips.ua.ac.be/annotation-of-negation-cues-and-their-scope-guidelines-v10
+
+
+
+-------------
+FORMAT
+-------------
+
+The data are provided in CoNLL format. Each line corresponds to a token and each annotation is provided in a column; empty lines indicate end of sentence. The content of the columns given is:
+
+
+Column 1: chapter name
+
+Column 2: sentence number within chapter
+
+Column 3: token number within sentence
+
+Column 4: word
+
+Column 5: lemma
+
+Column 6: part-of-speech
+
+Column 7: syntax
+
+
+Systems have to output the contents of the following columns:
+
+
+Columns 8 to last:
+
+- If the sentence has no negations,  column 8 has a "***" value and there are no more columns.
+- If the sentence has negations, the annotation for each negation is provided in three columns. The first column contains the word or part of the word (e.g., morpheme "un"), that belongs to the negation cue. The second contains the word or part of the word that belongs to the scope of the negation cue. The third column contains the word or part of the word that is the negated event or property. It can be the case that no negated event or property are marked as negated. For example, in Example 3 none of the negations has a negated event annotated because of the conditional construction.
+
+In Example 1 there are two negations. Information for the first negation is provided in columns 8-10, and for the second in columns 11-13. Example 2 shows how prefixal negation is represented. "un" is the negation cue, "conventional appearance" is the scope, and "conventional" is the negated property.
+
+
+Example 1
+
+wisteria01	288	0	He	He	PRP	(S(NP*)	_	He	_	_	He	_
+wisteria01	288	1	is	be	VBZ	(VP*	_	is	_	_	is	_
+wisteria01	288	2	not	not	RB	(ADJP*	not	_	_	_	_	_
+wisteria01	288	3	particularly	particularly	RB	*	_	particularly	_	_	_	_
+wisteria01	288	4	intelligent	intelligent	JJ	*)	_	intelligent	intelligent	_	_	_
+wisteria01	288	5	--	--	:	*	_	_	_	_	_	_
+wisteria01	288	6	not	not	RB	(NP(NP*	_	_	_	not	_	_
+wisteria01	288	7	a	a	DT	*	_	_	_	_	a	_
+wisteria01	288	8	man	man	NN	*)	_	_	_	_	man	_
+wisteria01	288	9	likely	likely	JJ	(ADJP*	_	_	_	_	likely	likely
+wisteria01	288	10	to	to	TO	(S(VP*	_	_	_	_	to	_
+wisteria01	288	11	be	be	VB	(VP*	_	_	_	_	be	_
+wisteria01	288	12	congenial	congenial	JJ	(ADJP*	_	_	_	_	congenial	_
+wisteria01	288	13	to	to	TO	(PP*	_	_	_	_	to	_
+wisteria01	288	14	a	a	DT	(NP*	_	_	_	_	a	_
+wisteria01	288	15	quick-witted	quick-witted	JJ	*	_	_	_	_	quick-witted	_
+wisteria01	288	16	Latin	Latin	NNP	*)))))))))	_	_	_	_	Latin	_
+wisteria01	288	17	.	.	.	*)	_	_	_	_	_	_
+
+
+Example 2
+
+wisteria01	60	0	Our	Our	PRP$	(S(NP*	_	_	_
+wisteria01	60	1	client	client	NN	*)	_	_	_
+wisteria01	60	2	looked	look	VBD	(VP*	_	_	_
+wisteria01	60	3	down	down	RB	(ADVP*)	_	_	_
+wisteria01	60	4	with	with	IN	(PP*	_	_	_
+wisteria01	60	5	a	a	DT	(NP(NP*	_	_	_
+wisteria01	60	6	rueful	rueful	JJ	*	_	_	_
+wisteria01	60	7	face	face	NN	*)	_	_	_
+wisteria01	60	8	at	at	IN	(PP*	_	_	_
+wisteria01	60	9	his	his	PRP$	(NP*	_	his	_
+wisteria01	60	10	own	own	JJ	*	_	own	_
+wisteria01	60	11	unconventional	unconventional	JJ	*	un	conventional	conventional
+wisteria01	60	12	appearance	appearance	NN	*)))))	_	appearance	_
+wisteria01	60	13	.	.	.	*)	_	_	_
+
+Example 3
+
+wisteria01	320	0	She	She	PRP	(S(NP*)	_	She	_	_	_	_
+wisteria01	320	1	would	would	MD	(VP*	_	would	_	_	_	_
+wisteria01	320	2	not	not	RB	*	not	_	_	_	_	_
+wisteria01	320	3	have	have	VB	(VP*	_	have	_	_	_	_
+wisteria01	320	4	said	say	VBD	(VP*	_	said	_	_	_	_
+wisteria01	320	5	`	`	``	(SBAR(S(NP*	_	'	_	_	_	_
+wisteria01	320	6	Godspeed	Godspeed	NNP	*	_	Godspeed	_	_	_	_
+wisteria01	320	7	'	'	''	*)	_	'	_	_	_	_
+wisteria01	320	8	had	have	VBD	(VP*	_	had	_	_	had	_
+wisteria01	320	9	it	it	PRP	(ADVP*	_	it	_	_	it	_
+wisteria01	320	10	not	not	RB	*)	_	not	_	not	_	_
+wisteria01	320	11	been	be	VBN	(VP*	_	been	_	_	been	_
+wisteria01	320	12	so	so	RB	(ADVP*))))))))	_	so	_	_	so	_
+wisteria01	320	13	.	.	.	*)	_	_	_	_	_	_
+
+
+
+
+-----------------------
+TASK 1: SCOPE DETECTION
+-----------------------
+
+Task 1 aimed at resolving the scope of negation cues and detecting negated events.
+The task is divided into 3 subtasks:
+
+(i) Identifying negation cues, i.e., words that express negation. Cues can be single words (e.g.,  never), multiwords (e.g., no longer, by no means), or affixes (e.g. im-,  -less). Note that negation cues can be discontinuous, e.g.,  neither ... nor.
+ 
+(ii) Resolving the scope of negation. This subtask addresses the problem of determining which tokens within a sentence are affected by the negation cue.  A scope is a sequence of tokens that can be discontinuous.
+
+(iii) Identifying the negated event or property, if any. The negated event or property is always within the scope of a cue. Only factual events can be negated.
+
+More details about the task are provided in Morante and Blanco (2012).
+
+------------
+Evaluation
+------------
+
+The evaluation is based on the following criteria:
+
+- Punctuation tokens are ignored.
+
+- A true positive (TP) requires all tokens of the negation element have to be correctly identified. 
+
+- We provide a scope level measure that does not require strict cue match.  To count a scope as TP this measure  requires that only one cue token is correctly identified, instead of all cue tokens. 
+
+- To count a negated event as TP we do not require correct identification of the cue.   
+
+- To evaluate cues, scopes and negated events, partial matches are not counted as FP, only as FN. This is to avoid penalizing partial matches more than missed matches. 
+
+
+The following evaluation measures have been used to evaluate the systems:
+
+- Cue-level F1-measures.
+
+- Scope-level F1-measures that require only partial cue  match.
+
+- Scope-level F1-measures that require strict cue  match. In this case, all tokens of the cue have to be correctly identified. 
+
+- F1-measure over negated events, computed independently from cues and from scopes.
+
+- Global F1-measure of negation: the three elements of the negation -- cue, scope and negated event -- all have to be correctly identified (strict match).
+
+-F1-measure over scope tokens. The total of scope tokens in a sentence is the sum of tokens of all scopes. For example, if a sentence has two scopes, one of five tokens and another of seven  tokens, then the total of scope tokens is twelve. 
+
+- Percentage of correct negation sentences.
+
+A second version of the  measures (B) was calculated and provided to participants, but was not used to rank the systems, because it was introduced in the last period of the development phase following the request of a participant team.  In the B version of the measures, precision is not counted as (TP/(TP+FP)), but as  (TP / total of system predictions), counting in this way the percentage of perfect matches among all the system predictions. Providing this version of the measures also allowed us to compare the results of the two versions and to check if systems would be ranked in a different position depending on the version.
+
+For evaluating, use the file src/eval.cd-sco.pl. You can execute this perl command with -h to obtain help:
+
+>perl src/eval.cd-sco.pl -h
+
+Usage: [perl] eval.cd-sco.pl [OPTIONS] -g <gold standard> -s <system output>
+
+Options:
+      -h : help:        print this help text and exit
+       -r : readme:      print a brief explanation about the evaluation output
+
+More details about the evaluation are provided in Morante and Blanco (2012).
+
+-------------
+REFERENCES
+-------------
+
+E. Charniak and M. Johnson (2005) Coarse-to-Fine n-Best Parsing and MaxEnt Discriminative Reranking, Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL 2005), pages 173-180, Ann Arbor, Michigan, June. Association for Computational Linguistics.
+
+R. Morante, S. Schrauwen, and W. Daelemans (2011) Annotation of negation cues and their scope guidelines v1.0. Technical Report CTR-003, CLiPS, University of Antwerp, Antwerp, 2011.
+
+R. Morante and W. Daelemans (2012) ConanDoyle-neg: Annotation of negation in Conan Doyle stories. In Proceedings of the Eigth International Conference on Language Resources and Evaluation (LREC'12).
+
+R. Morante and E.  Blanco (2012). *SEM 2012 Shared Task: Resolving the Scope and Focus of Negation. In Proceeding of the First Joint Conference on Lexical and Computational Semantics. Montreal, Canada
+
+
+
+
