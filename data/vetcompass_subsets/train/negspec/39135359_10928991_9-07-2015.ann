@@ -1,0 +1,12 @@
+T1	NegSignal 662 664	No
+T2	NegScope 662 704	No poisonous plants or shrubbery in garden
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 706 708	No
+T4	NegScope 706 723	No d/c/s recently
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 728 730	no
+T6	NegScope 728 757	no health concerns at present
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 784 786	No
+T8	NegScope 784 807	No episodes of v+ since
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

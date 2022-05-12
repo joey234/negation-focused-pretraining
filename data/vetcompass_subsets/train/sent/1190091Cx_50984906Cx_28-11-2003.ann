@@ -1,0 +1,12 @@
+T1	Sentence 0 52	jc - 1 x malaseb shampoo 250ml                 14.22
+T2	Sentence 56 86	jc - - Dosage: Use as dircted.
+T3	Sentence 90 124	jc - -              3 times weekly
+T4	Sentence 128 181	jc - 15 x prednisolone  tabs 5mg*                6.49
+T5	Sentence 185 231	jc - - Dosage: Give 1 tablet every three days.
+T6	Sentence 235 289	jc - -15 x prednisolone  tabs 5mg*               -6.49
+T7	Sentence 293 346	jc - 15 x prednisolone tabs (e/c) 2.5mg 500      6.31
+T8	Sentence 350 394	jc - - Dosage: Give 1 tablet every third day
+T9	Sentence 398 432	jc - Doing better_ given 0.5ml sc.
+T10	Sentence 436 479	jc - See back in 14 days for 9th injection.
+T11	Sentence 480 485	0.5ml
+T12	Sentence 489 545	cd - Payment By Db/Cr  Ref: cd                     20.53

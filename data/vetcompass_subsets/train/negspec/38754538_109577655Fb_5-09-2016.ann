@@ -1,0 +1,6 @@
+T1	NegSignal 99 102	nad
+T2	NegScope 99 110	nad  on  pe
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 174 177	nad
+T4	NegScope 159 177	chest /  abdo  nad
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

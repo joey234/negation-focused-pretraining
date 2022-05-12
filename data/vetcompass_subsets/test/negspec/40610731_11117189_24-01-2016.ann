@@ -1,0 +1,3 @@
+T1	SpecSignal 9 13	poss
+T2	SpecScope 0 83	erythema poss on medial aspect hind legs and moderate interdig dermatitis back legs
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

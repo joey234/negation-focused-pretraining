@@ -1,0 +1,26 @@
+T1	NegSignal 80 82	no
+T2	NegSignal 85 88	nor
+T3	NegScope 80 90	no v nor d
+R1	NegSignal-NegScope Arg1:T1 Arg2:T3	
+R2	NegSignal-NegScope Arg1:T2 Arg2:T3	
+T4	SpecSignal 128 135	thought
+T5	SpecScope 128 153	thought was teacup yorkie
+R3	SpecSignal-SpecScope Arg1:T4 Arg2:T5	
+T6	NegSignal 233 236	not
+T7	NegScope 233 249	not fully weaned
+R4	NegSignal-NegScope Arg1:T6 Arg2:T7	
+T8	SpecSignal 209 212	may
+T9	SpecScope 209 249	may be much younger and not fully weaned
+R5	SpecSignal-SpecScope Arg1:T8 Arg2:T9	
+T10	NegSignal 180 186	didn't
+T11	NegScope 180 205	didn't seen mum or litter
+R6	NegSignal-NegScope Arg1:T10 Arg2:T11	
+T12	NegSignal 325 327	no
+T13	NegScope 325 337	no skin tent
+R7	NegSignal-NegScope Arg1:T12 Arg2:T13	
+T14	NegSignal 368 370	no
+T15	NegScope 368 387	no fb/mass/boarding
+R8	NegSignal-NegScope Arg1:T14 Arg2:T15	
+T16	NegSignal 417 420	not
+T17	NegScope 417 433	not fully weaned
+R9	NegSignal-NegScope Arg1:T16 Arg2:T17	

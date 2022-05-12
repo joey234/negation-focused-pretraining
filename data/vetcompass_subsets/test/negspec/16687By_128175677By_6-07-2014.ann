@@ -1,0 +1,6 @@
+T1	NegSignal 694 697	NAD
+T2	NegScope 694 703	NAD on PE
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 803 805	no
+T4	NegScope 803 820	no worming tx yet
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

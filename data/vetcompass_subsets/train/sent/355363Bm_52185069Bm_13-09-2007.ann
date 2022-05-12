@@ -1,0 +1,21 @@
+T1	Sentence 0 52	lv - 1 x sedation fee - cat/dog excl drugs     24.26
+T2	Sentence 56 108	lv - 1 x domitor injection 1mg/ml              19.18
+T3	Sentence 112 165	lv - .5 x antisedan 10ml inj                    13.09
+T4	Sentence 169 223	lv - .04 x torbugesic inj                         5.44
+T5	Sentence 227 279	lv - 1 x ear  canal flush                      47.51
+T6	Sentence 283 335	lv - 1 x bactroban ointment            15g     23.50
+T7	Sentence 339 392	lv - 15 x baytril tabs 150mg**                  48.29
+T8	Sentence 396 428	lv - - Dosage: 1.5 tablets daily
+T9	Sentence 432 465	lv - -              Start tonight
+T10	Sentence 469 521	lv - 1 x culture and sensitivity               23.50
+T11	Sentence 525 578	AW - -1 x Bactroban Ointment            15g    -14.96
+T12	Sentence 582 626;630 643	lv - Disgusting Odour++ O Reports Started As lv - Abscess.
+T14	Sentence 644 668	Swab -&gt; Iddex C&amp;s
+T15	Sentence 672 719;723 760	lv - Ear Canal Furry_ But Not Bad_ Similar To L lv - Ear -Likely External Ear Disease
+T17	Sentence 764 806	lv - ?proteolytic Bacteria Eg Pseudomonas_
+T18	Sentence 810 825	lv - Proteus...
+T19	Sentence 829 871;875 915	lv - Start Baytril As Noted. ?bactroban Or lv - Flamazine When Settled_ Or  Aurizon
+T21	Sentence 919 971;976 1010	lv - Cleaned With Cleanaural Cat &amp; Saline: Quite v - Sore_ Aurizon If Less Head Shy
+T23	Sentence 1014 1060;1064 1108;1112 1133	lv - Staple Wound -Likely To Fall Out_ Just To lv - Stop Gross Contamination Meanwhile_ And lv - Continue Metacam
+T26	Sentence 1137 1153	lv - Re-Ex 3-5ds
+T27	Sentence 1157 1213	NC - Payment By Db/Cr  Ref: NC                    229.21

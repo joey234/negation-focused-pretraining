@@ -1,0 +1,10 @@
+ES - 1 x vacc rabbit sec myx/vhd                0.00
+
+ES - 1 x lapinject vhd 5ml                      0.00
+
+ES - .5 x dental rabbit burr incisors            5.77
+
+ES - vhd lapinject:3q2b-4
+
+LVN - Payment By Cash  Ref: LVN                      5.77
+

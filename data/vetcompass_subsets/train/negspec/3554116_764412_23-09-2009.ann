@@ -1,0 +1,3 @@
+T1	NegSignal 102 105	not
+T2	NegScope 102 126	not changed/bothered dog
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

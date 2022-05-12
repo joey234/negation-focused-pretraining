@@ -1,0 +1,3 @@
+T1	SpecScope 37 61	sulphonamides could scue
+T2	SpecSignal 51 56	could
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

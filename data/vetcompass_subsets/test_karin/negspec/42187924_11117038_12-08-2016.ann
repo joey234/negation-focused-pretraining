@@ -1,0 +1,12 @@
+T1	NegScope 135 145	no C,S,V,D
+T2	NegSignal 135 137	no
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 165 179	nad chest ausc
+T4	NegSignal 165 168	nad
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
+T5	NegScope 244 257	nad otherwise
+T6	NegSignal 244 247	nad
+R3	NegSignal-NegScope Arg1:T6 Arg2:T5	
+T7	NegScope 98 120	does not like dog food
+T8	NegSignal 103 106	not
+R4	NegSignal-NegScope Arg1:T8 Arg2:T7	

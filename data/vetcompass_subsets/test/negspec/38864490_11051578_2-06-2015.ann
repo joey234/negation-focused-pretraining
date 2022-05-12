@@ -1,0 +1,6 @@
+T1	NegSignal 63 65	no
+T2	NegScope 63 74	no problems
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 132 135	nad
+T4	NegScope 132 135	nad
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	NegSignal 328 331	NAD
+T2	NegScope 328 342	NAD else on CE
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 607 618	looked like
+T4	SpecScope 607 649	looked like something pierced between toes
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

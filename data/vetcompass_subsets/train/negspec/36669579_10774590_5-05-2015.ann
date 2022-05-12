@@ -1,0 +1,6 @@
+T1	NegSignal 73 75	No
+T2	NegScope 73 107	No adverse reactions after 1st jab
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 110 112	No
+T4	NegScope 110 133	No clinical signs shown
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

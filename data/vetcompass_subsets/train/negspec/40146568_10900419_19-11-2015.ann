@@ -1,0 +1,8 @@
+T1	NegSignal 23 25	no
+T2	NegScope 23 48	no abnormalities detected
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 194 201	suspect
+T4	SpecScope 194 265	suspect she might be prone to putting it on easier than some other dogs
+T5	SpecSignal 206 211	might
+R2	SpecSignal-SpecScope Arg1:T5 Arg2:T4	
+R3	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

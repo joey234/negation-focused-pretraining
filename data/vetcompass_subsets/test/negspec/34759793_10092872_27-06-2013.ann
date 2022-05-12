@@ -1,0 +1,34 @@
+T1	SpecSignal 495 499	poss
+T2	SpecScope 495 530	poss of myiasis and skin conditions
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 448 452	poss
+T4	SpecScope 448 483	poss of needing more risky sedation
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 569 577	unlikely
+T6	SpecScope 569 601	unlikely to be symptomatic still
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	NegSignal 670 672	no
+T8	NegScope 670 690	no blepherospasm etc
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 693 697	poss
+T10	SpecSignal 714 715	?
+T12	SpecSignal 727 728	?
+T13	SpecScope 716 728	Age and flu?
+R7	SpecSignal-SpecScope Arg1:T12 Arg2:T13	
+T14	SpecSignal 961 965	poss
+T15	SpecScope 961 996	poss use of renal prescription diet
+R8	SpecSignal-SpecScope Arg1:T14 Arg2:T15	
+T11	SpecScope 693 715	poss related to teeth?
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T11	
+R6	SpecSignal-SpecScope Arg1:T10 Arg2:T11	
+T16	SpecSignal 188 194	appear
+T17	SpecScope 188 208	appear to be missing
+R9	SpecSignal-SpecScope Arg1:T16 Arg2:T17	
+T18	SpecSignal 402 405	may
+T19	SpecSignal 377 382	Seems
+T20	SpecScope 377 429	Seems at this stage that may be able to do conscious
+R10	SpecSignal-SpecScope Arg1:T18 Arg2:T20	
+R11	SpecSignal-SpecScope Arg1:T19 Arg2:T20	
+T21	SpecSignal 932 941	check for
+T22	SpecScope 932 955	check for renal disease
+R12	SpecSignal-SpecScope Arg1:T21 Arg2:T22	

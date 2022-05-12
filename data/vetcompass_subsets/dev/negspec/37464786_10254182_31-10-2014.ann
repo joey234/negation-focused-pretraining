@@ -1,0 +1,18 @@
+T1	NegSignal 254 257	NAD
+T2	NegScope 240 257	Gen clin exam NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 259 261	No
+T4	NegScope 259 276	No probs detected
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 314 318	seem
+T6	SpecScope 306 335	Lesions seem infected as well
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 387 396	suspected
+T8	SpecScope 375 396	Syndrome is suspected
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 508 511	May
+T10	SpecScope 508 529	May need to repeat it
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 567 575	rule out
+T12	SpecScope 567 607	rule out allergy if there is no response
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	

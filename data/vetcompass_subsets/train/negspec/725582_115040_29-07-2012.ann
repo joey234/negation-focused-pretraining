@@ -1,0 +1,18 @@
+T1	NegSignal 227 229	no
+T2	NegScope 227 232	no FB
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 233 235	no
+T4	NegScope 233 245	no discharge
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 246 248	no
+T6	NegScope 246 254	no smell
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 367 373	donÂt
+T8	NegScope 367 390	donÂt think it is diet
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 602 605	not
+T10	NegScope 602 632	not wanting to go for vaccines
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 291 298	Suspect
+T12	SpecScope 291 315	Suspect seasonal allergy
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	

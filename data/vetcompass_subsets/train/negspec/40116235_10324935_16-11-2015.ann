@@ -1,0 +1,6 @@
+T1	NegSignal 189 192	nad
+T2	NegScope 185 192	all nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 220 230	feels like
+T4	SpecScope 220 234	feels like fat
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

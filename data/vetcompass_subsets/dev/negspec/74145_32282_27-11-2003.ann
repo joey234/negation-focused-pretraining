@@ -1,0 +1,6 @@
+T1	NegSignal 904 910	didn't
+T2	NegScope 904 932	didn't bring a faecal sample
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 1649 1652	not
+T4	NegScope 1649 1665;1668 1714	not necessary to syringing her with water if eating wet food ok
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,12 @@
+T1	NegSignal 370 373	not
+T2	NegScope 370 383	not too gassy
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 388 396	couldn't
+T4	NegScope 388 411	couldn't aplpate any fb
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 454 459	isn't
+T6	NegScope 454 476	isn't allowed toys etc
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 498 509	sounds like
+T8	SpecScope 498 517	sounds like colitis
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

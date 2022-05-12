@@ -1,0 +1,32 @@
+T1	SpecSignal 98 103	seems
+T2	SpecScope 98 182	seems to be in pain when her neck is touched or she is looking upwards about 2 w ago
+T3	SpecSignal 143 145	or
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T2	
+T4	NegSignal 189 192	not
+T5	NegScope 189 218	not seem to be getting better
+R3	NegSignal-NegScope Arg1:T4 Arg2:T5	
+T6	NegSignal 244 246	no
+T7	NegScope 244 279	no problems with stomach since then
+R4	NegSignal-NegScope Arg1:T6 Arg2:T7	
+T8	NegSignal 406 409	NAD
+T9	NegScope 400 409	chest NAD
+R5	NegSignal-NegScope Arg1:T8 Arg2:T9	
+T10	NegSignal 415 418	NAD
+T11	NegScope 411 418	abd NAD
+R6	NegSignal-NegScope Arg1:T10 Arg2:T11	
+T12	NegSignal 432 435	NAD
+T13	NegScope 420 435	lymph nodes NAD
+R7	NegSignal-NegScope Arg1:T12 Arg2:T13	
+T14	NegSignal 455 457	no
+T15	NegScope 455 519	no sign of pain in consult on palpation and manipulation of neck
+R8	NegSignal-NegScope Arg1:T14 Arg2:T15	
+T16	NegSignal 535 542	without
+T17	NegScope 535 550	without problem
+R9	NegSignal-NegScope Arg1:T16 Arg2:T17	
+T18	NegSignal 552 554	no
+T19	NegScope 552 577	no abnormalities palpable
+R10	NegSignal-NegScope Arg1:T18 Arg2:T19	
+T20	NegSignal 593 595	no
+T21	NegScope 593 626	no abnormalities found in consult
+R11	NegSignal-NegScope Arg1:T20 Arg2:T21	

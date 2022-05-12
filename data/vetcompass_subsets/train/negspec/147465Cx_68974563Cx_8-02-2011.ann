@@ -1,0 +1,3 @@
+T1	NegScope 56 65	no better
+T2	NegSignal 56 58	no
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

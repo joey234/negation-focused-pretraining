@@ -1,0 +1,6 @@
+T1	NegSignal 63 66	NAD
+T2	NegScope 63 78	NAD on wet prep
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 101 113	Doesn't look
+T4	SpecScope 101 123	Doesn't look parasitic
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

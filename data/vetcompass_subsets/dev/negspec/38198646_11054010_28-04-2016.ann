@@ -1,0 +1,18 @@
+T1	NegSignal 72 75	not
+T2	NegScope 72 86	not wearing BC
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 186 188	no
+T4	NegScope 186 191	no V+
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 276 279	NAD
+T6	NegScope 250 279	thorac ausc and abdo palp NAD
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 519 522	NAD
+T8	NegScope 514 522	PLNs NAD
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 524 527	NAd
+T10	NegScope 524 540	NAd rest of exam
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 193 200	Unknown
+T12	SpecScope 193 213	Unknown flea history
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	

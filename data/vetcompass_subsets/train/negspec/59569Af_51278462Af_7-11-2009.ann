@@ -1,0 +1,6 @@
+T1	SpecSignal 405 411	likely
+T2	SpecScope 377 411	underlying food intolerance likely
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 415 422	thought
+T4	SpecScope 415 434	thought underweight
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

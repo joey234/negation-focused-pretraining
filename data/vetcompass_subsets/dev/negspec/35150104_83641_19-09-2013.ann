@@ -1,0 +1,21 @@
+T1	NegSignal 179 181	No
+T2	NegScope 179 189	No v/d/c/s
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 374 376	No
+T4	NegScope 374 396	No redness or swelling
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 473 475	no
+T6	NegScope 473 497	no weeping or discharges
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 603 608	seems
+T8	SpecScope 600 623	AG seems to be settling
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 723 729	thinks
+T10	SpecScope 723 775	thinks that the Sensitivity tins are helping his GIT
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	NegSignal 802 804	no
+T12	NegScope 802 820	no more borborygmi
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	SpecSignal 867 870	may
+T14	SpecScope 867 957	may be able to get onto Sensitivity biscuits to help GIt, and still monitor/control weight
+R7	SpecSignal-SpecScope Arg1:T13 Arg2:T14	

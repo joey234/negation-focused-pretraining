@@ -1,0 +1,9 @@
+T1	NegSignal 111 114	NAD
+T2	NegScope 111 114	NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 815 817	no
+T4	NegScope 815 823	no reply
+T5	NegSignal 921 923	no
+T6	NegScope 921 929	no reply
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

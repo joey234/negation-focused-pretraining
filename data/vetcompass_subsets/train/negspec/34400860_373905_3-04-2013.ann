@@ -1,0 +1,3 @@
+T1	SpecSignal 67 75	rule out
+T2	SpecScope 67 97	rule out other causes fainting
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

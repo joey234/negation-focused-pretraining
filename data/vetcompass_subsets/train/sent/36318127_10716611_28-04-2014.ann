@@ -1,0 +1,15 @@
+T1	Sentence 0 46	Examination: Pre-op physical examination = NAD
+T2	Sentence 50 77	Medications:   Domitorb IM.
+T3	Sentence 78 99	Mask with Iso and O2.
+T4	Sentence 103 163	Surgical Procedure: Open castration through scrotal incision
+T5	Sentence 203 249	Cord and blood vessels tied off on themselves.
+T6	Sentence 254 284	Hospital: Uneventful recovery.
+T7	Sentence 288 327	Plan: Recheck in 2- 5 days as required.
+T8	Sentence 331 349	ID chip implanted.
+T9	Sentence 351 382	ADv Insurance and flea/worming.
+T10	Sentence 388 416	--- 29/04/2014 12:44:51 E83:
+T11	Sentence 418 437	Surgery Follow Up -
+T12	Sentence 440 545	Resolved - Client has already been in for this prior to recall telepone call or recall no longer relevant
+T13	Sentence 549 577	--- 30/07/2014 17:34:12 E83:
+T14	Sentence 579 592	Post Neuter -
+T15	Sentence 595 700	Resolved - Client has already been in for this prior to recall telepone call or recall no longer relevant

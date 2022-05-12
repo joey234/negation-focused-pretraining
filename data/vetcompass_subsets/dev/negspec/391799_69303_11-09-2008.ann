@@ -1,0 +1,3 @@
+T1	SpecSignal 82 86	poss
+T2	SpecScope 82 120	poss in-contacts w panleucopenia virus
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

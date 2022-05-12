@@ -1,0 +1,3 @@
+T1	NegSignal 17 19	No
+T2	NegScope 17 31	No improvement
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

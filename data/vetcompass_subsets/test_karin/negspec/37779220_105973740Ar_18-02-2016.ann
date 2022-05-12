@@ -1,0 +1,9 @@
+T1	NegScope 16 38	not as pruritic as was
+T2	NegSignal 16 19	not
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 40 56	Not erythematous
+T4	NegSignal 40 43	Not
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
+T5	SpecScope 194 226	O feels is much more comfortable
+T6	SpecSignal 196 201	feels
+R3	SpecSignal-SpecScope Arg1:T6 Arg2:T5	

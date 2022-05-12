@@ -1,0 +1,9 @@
+T1	NegScope 163 192	no hx of prev dental problems
+T2	NegSignal 163 165	no
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 274 295	no soft tissue issues
+T4	NegSignal 274 276	no
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
+T5	NegScope 380 409	should not be more than Â£100
+T6	NegSignal 387 390	not
+R3	NegSignal-NegScope Arg1:T6 Arg2:T5	

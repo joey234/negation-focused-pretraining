@@ -1,0 +1,9 @@
+T1	SpecSignal 183 191	possible
+T2	SpecScope 183 241	possible underlying disease re thin BCS but also head tilt
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 245 251	unable
+T4	NegScope 245 269	unable to afford work up
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 394 400	unable
+T6	NegScope 394 410	unable to afford
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

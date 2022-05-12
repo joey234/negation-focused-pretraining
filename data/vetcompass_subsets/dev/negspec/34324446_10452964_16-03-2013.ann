@@ -1,0 +1,6 @@
+T1	NegSignal 146 149	nad
+T2	NegScope 143 149	ce nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 195 199	Poss
+T4	SpecScope 195 206	Poss dental
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

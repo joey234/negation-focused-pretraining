@@ -1,0 +1,6 @@
+T1	SpecScope 747 768	poss larynx infection
+T2	SpecSignal 747 751	poss
+T3	NegScope 825 836	not winning
+T4	NegSignal 825 828	not
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

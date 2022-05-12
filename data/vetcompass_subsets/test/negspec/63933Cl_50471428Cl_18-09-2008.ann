@@ -1,0 +1,3 @@
+T1	NegSignal 227 230	nad
+T2	NegScope 217 230	clin exam nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

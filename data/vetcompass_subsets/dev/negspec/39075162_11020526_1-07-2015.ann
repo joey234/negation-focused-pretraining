@@ -1,0 +1,18 @@
+T1	NegSignal 35 37	No
+T2	NegScope 35 46	No concerns
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 104 111	doesn't
+T4	NegScope 104 146	doesn't know which puppy it is coming from
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 148 150	No
+T6	NegScope 148 153	No V+
+T7	NegSignal 157 159	no
+T8	NegScope 157 162	no D+
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 154 156	or
+T10	SpecScope 148 162	No V+ or no D+
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	NegSignal 190 193	NAD
+T12	NegScope 190 201	NAD on exam
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	

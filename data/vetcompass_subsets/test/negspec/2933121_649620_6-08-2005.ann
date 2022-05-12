@@ -1,0 +1,3 @@
+T1	SpecSignal 134 139	might
+T2	SpecScope 134 171	might have some left from Island vets
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

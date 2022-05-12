@@ -1,0 +1,9 @@
+T1	NegSignal 99 101	no
+T2	NegScope 99 110	no sneezing
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 127 129	no
+T4	NegScope 127 168	no inflammation of conjunctival membranes
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 235 249	no evidence of
+T6	SpecScope 235 257	no evidence of cat flu
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

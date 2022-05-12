@@ -1,0 +1,6 @@
+T1	NegSignal 161 163	no
+T2	NegScope 161 176	no mouth ulcers
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 15 16	?
+T4	SpecScope 8 16	Cat Flu?
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

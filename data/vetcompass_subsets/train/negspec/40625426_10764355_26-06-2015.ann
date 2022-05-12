@@ -1,0 +1,12 @@
+T1	SpecSignal 94 98	poss
+T2	SpecScope 94 116	poss follow up with ER
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 317 320	Nad
+T4	NegScope 317 337	Nad on physical exam
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 342 347	seems
+T6	SpecScope 342 371	seems very nervous in general
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	NegSignal 373 375	no
+T8	NegScope 373 398	no known traumatic events
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

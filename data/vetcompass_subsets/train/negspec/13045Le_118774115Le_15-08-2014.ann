@@ -1,0 +1,9 @@
+T1	NegSignal 34 37	not
+T2	NegScope 34 49	not been eating
+T3	NegSignal 54 57	not
+T4	NegScope 54 62	not self
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 263 269	hasn't
+T6	NegScope 263 284	hasn't eaten any more
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

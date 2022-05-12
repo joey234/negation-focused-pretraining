@@ -1,0 +1,11 @@
+T1	NegSignal 196 201	can't
+T2	NegScope 196 220	can't see much in throat
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 224 229	won't
+T4	NegScope 224 239	won't allow muc
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 295 299	poss
+T6	SpecScope 295 335	poss lungworm as well btu quite unlikely
+T7	SpecSignal 327 335	unlikely
+R4	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+R3	SpecSignal-SpecScope Arg1:T7 Arg2:T6	

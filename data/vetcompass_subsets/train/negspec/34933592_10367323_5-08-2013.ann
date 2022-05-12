@@ -1,0 +1,27 @@
+T1	NegSignal 19 22	not
+T2	NegScope 19 41	not eating all weekend
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 297 299	No
+T4	NegScope 297 305	No diarr
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 307 310	Not
+T6	NegScope 307 318	Not noted U
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 320 323	Not
+T8	NegScope 320 337	Not really eating
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 354 357	nad
+T10	NegScope 354 365	nad on exam
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	NegSignal 382 385	not
+T12	NegScope 382 397	not dehydarated
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	NegSignal 399 401	no
+T14	NegScope 399 411	no skin tent
+R7	NegSignal-NegScope Arg1:T13 Arg2:T14	
+T15	SpecSignal 436 438	??
+T16	SpecScope 427 438	gastritis??
+R8	SpecSignal-SpecScope Arg1:T15 Arg2:T16	
+T17	SpecSignal 173 176	may
+T18	SpecScope 173 186	may be a wait
+R9	SpecSignal-SpecScope Arg1:T17 Arg2:T18	

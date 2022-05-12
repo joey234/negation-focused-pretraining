@@ -1,0 +1,12 @@
+T1	SpecSignal 19 23	poss
+T2	SpecScope 19 37	poss ear infection
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 60 63	not
+T4	NegScope 56 85	Ear not infected or inflammed
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 221 222	?
+T6	SpecScope 194 222	Stressed since baby arrived?
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 234 235	?
+T8	SpecScope 223 235	Atopy again?
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

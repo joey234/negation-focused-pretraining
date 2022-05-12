@@ -1,0 +1,15 @@
+T1	NegSignal 360 363	NAd
+T2	NegScope 360 379	NAd cardioresp ausc
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 391 394	NAD
+T4	NegScope 381 394	Abdo palp-NAD
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 596 604	rule out
+T6	SpecScope 596 613	rule out for sure
+T7	NegScope 590 613	can't rule out for sure
+T8	NegSignal 590 595	can't
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+R4	NegSignal-NegScope Arg1:T8 Arg2:T7	
+T9	NegSignal 572 577	can't
+T10	NegScope 572 585	can't feel FB
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	

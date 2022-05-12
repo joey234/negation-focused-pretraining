@@ -1,0 +1,6 @@
+T1	NegSignal 286 295	no longer
+T2	NegScope 286 305	no longer lethargic
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 241 248	appears
+T4	SpecScope 241 281	appears sl abnormal mentation in consult
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

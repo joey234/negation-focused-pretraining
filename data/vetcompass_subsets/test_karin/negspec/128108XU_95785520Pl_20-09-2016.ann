@@ -1,0 +1,6 @@
+T1	NegSignal 12 14	No
+T2	NegScope 12 26	No Nurse Appts
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 56 61	Empty
+T4	NegScope 56 65	Empty ags
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

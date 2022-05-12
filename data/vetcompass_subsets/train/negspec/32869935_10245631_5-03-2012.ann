@@ -1,0 +1,3 @@
+T1	NegSignal 34 37	not
+T2	NegScope 34 60	not holding on to her toys
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

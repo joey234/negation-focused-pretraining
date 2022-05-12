@@ -1,0 +1,3 @@
+T1	NegSignal 11 14	NAD
+T2	NegScope 0 14	Clinically NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

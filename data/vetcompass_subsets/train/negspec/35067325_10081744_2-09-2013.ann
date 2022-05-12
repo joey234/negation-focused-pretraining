@@ -1,0 +1,6 @@
+T1	NegSignal 51 53	No
+T2	NegScope 51 70	No problems at home
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 473 476	NAD
+T4	NegScope 473 492	NAD on rest of exam
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

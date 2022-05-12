@@ -1,0 +1,3 @@
+T1	NegSignal 0 2	No
+T2	NegScope 0 5	No PD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

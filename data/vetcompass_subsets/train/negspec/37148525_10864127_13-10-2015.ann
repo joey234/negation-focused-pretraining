@@ -1,0 +1,9 @@
+T1	NegSignal 79 82	not
+T2	NegScope 79 98	not irritating foot
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 208 210	no
+T4	NegScope 208 223	no bone showing
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 361 364	Not
+T6	NegScope 361 398	Not charged hosp fee for previous day
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

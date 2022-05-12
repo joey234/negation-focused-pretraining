@@ -1,0 +1,6 @@
+T1	NegSignal 135 137	no
+T2	NegScope 120 137	Micro-chipped: no
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 227 230	Nad
+T4	NegScope 227 247	Nad on clinical exam
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

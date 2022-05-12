@@ -1,0 +1,27 @@
+T1	SpecSignal 19 23	Poss
+T2	SpecScope 19 27	Poss Pts
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 105 107	no
+T4	NegScope 105 133	no other dogs have the cough
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 221 228	suspect
+T6	SpecScope 221 252	suspect the teeth are V painful
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 311 312	?
+T8	SpecScope 298 312	Fatty /masses?
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	NegSignal 441 443	no
+T10	NegScope 441 459	no mumurs detected
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 776 777	?
+T12	SpecScope 758 777	Mediastinal masses?
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	
+T13	NegSignal 809 812	not
+T14	NegScope 809 821	not coughing
+R7	NegSignal-NegScope Arg1:T13 Arg2:T14	
+T15	SpecSignal 852 860	rule out
+T16	SpecScope 852 897	rule out any underlying disease for GA dental
+R8	SpecSignal-SpecScope Arg1:T15 Arg2:T16	
+T17	SpecSignal 959 967	rule out
+T18	SpecScope 959 1001	rule out heart disease and thoracic masses
+R9	SpecSignal-SpecScope Arg1:T17 Arg2:T18	

@@ -1,0 +1,3 @@
+T1	SpecSignal 112 115	may
+T2	SpecScope 112 138	may cause hypersensitivity
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

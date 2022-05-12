@@ -1,0 +1,3 @@
+T1	SpecSignal 360 363	May
+T2	SpecScope 360 388	May damage certain materials
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

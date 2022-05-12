@@ -1,0 +1,3 @@
+T1	NegSignal 109 112	Not
+T2	NegScope 109 124	Not oozy/moist/
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,12 @@
+T1	NegSignal 93 99	hasn't
+T2	NegScope 84 108	Nail bed hasn't improved
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 110 118	possibly
+T4	SpecScope 110 131	possibly gotten worse
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	NegSignal 389 392	Not
+T6	NegScope 389 417	Not spread to any other feet
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 516 519	may
+T8	SpecScope 516 551	may need to consider culture/biopsy
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

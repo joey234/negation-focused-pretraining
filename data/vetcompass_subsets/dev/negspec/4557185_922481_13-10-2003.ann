@@ -1,0 +1,3 @@
+T1	SpecSignal 25 35	seems like
+T2	SpecScope 25 49	seems like hip arthritis
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	NegSignal 244 247	NAD
+T2	NegScope 239 247	Abdo NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 261 268	suspect
+T4	SpecScope 261 276	suspect abscess
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

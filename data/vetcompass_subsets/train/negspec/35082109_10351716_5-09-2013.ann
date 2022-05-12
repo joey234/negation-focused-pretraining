@@ -1,0 +1,24 @@
+T1	NegSignal 19 22	not
+T2	NegScope 19 29	not eating
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 92 94	No
+T4	NegScope 92 97	No v+
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 122 127	seems
+T6	SpecScope 122 136	seems off food
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 138 143	seems
+T8	SpecScope 138 154	seems despressed
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	NegSignal 156 159	not
+T10	NegScope 156 182	not passing lots of faeces
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 203 208	seems
+T12	SpecScope 203 237	seems to be walkinga little bitodd
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	
+T13	SpecSignal 287 291	poss
+T14	SpecScope 287 304	poss constipation
+R7	SpecSignal-SpecScope Arg1:T13 Arg2:T14	
+T15	SpecSignal 346 350	nmay
+T16	SpecScope 346 367	nmay be better on dry
+R8	SpecSignal-SpecScope Arg1:T15 Arg2:T16	

@@ -1,0 +1,28 @@
+Examination: Pre-op physical examination = NAD
+
+
+Medications: Premed = ACP 0.02ml Vetergesic 0.16ml 
+                        PreEmptive pain relief = Metacam 0.25ml
+                        Induction agent = Propoflo 1.5ml given IV
+                        Maintenance = Isoflurane in Oxygen
+
+Surgery: Routine Ovariohysterectomy performed through incision in the : flank
+                Ligatures (Ovaries): Monocryl 3.0
+                Ligature (Cervix): Monocryl 3.0
+                Muscle sutures :Monocryl 3.0
+                Subcuticular sutures: Monocryl 3.0
+               
+Hospital: Uneventful recovery.
+
+Plan: Re-examine with  in 3- 10 days.
+
+Took buster collar 12.5cm
+
+
+--- 02/02/2015 18:29:48 M62:
+Surgery Follow Up - 
+Resolved - POC reported no issues with Elsa
+
+--- 05/05/2015 15:43:04 M62:
+Post Neuter - 
+Resolved - Client has already been in for this prior to recall 

@@ -1,0 +1,36 @@
+JH - Hist req
+
+DG - 1 x vacc annual dog DHPPiLepto            32.00
+
+DG - 1 x nobivac dhppi                 50       0.00
+
+DG - 1 x nobivac lepto 2               50d      0.00
+
+DG - 1 x frontline spray 250ml                 31.51
+
+DG - - Dosage: apply all over the body
+
+DG - -              read instructions carefully
+
+DG - clinical fine
+
+DG - dhppi
+
+DG - a073b01
+
+DG - lepto
+
+DG - a021a01
+
+DG - Weight Recorded As  16 Kg.
+
+JH - 3 x milbemax dog                  50      11.28
+
+JH - 1 x milbemax 443 dog                       0.00
+
+JH - Payment By Db/Cr  Ref: JH                     74.79
+
+JH - Amnesty voucher D837085
+
+JH - Hist rec_d
+

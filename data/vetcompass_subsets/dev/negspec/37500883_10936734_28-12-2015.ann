@@ -1,0 +1,6 @@
+T1	NegSignal 266 268	No
+T2	NegScope 266 280	No vomit today
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 353 357	Poss
+T4	SpecScope 353 364	Poss bloods
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

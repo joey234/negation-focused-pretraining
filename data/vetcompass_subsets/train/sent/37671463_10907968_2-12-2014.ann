@@ -1,0 +1,21 @@
+T1	Sentence 0 19	Reason: Rabbit Spay
+T2	Sentence 21 60	Examination:  Pre Anesthetic Exam = NAD
+T3	Sentence 64 132	Medications:   Premed = 0.3ml dom / 0.08ml torb / 0.233ml ketaset im
+T4	Sentence 160 207	PreEmptive pain relief = 0.23ml metacam 0.2% sc
+T5	Sentence 235 252	Induction agent =
+T6	Sentence 281 301	Maintenance = Oxygen
+T7	Sentence 305 320	60ml No. 18 sc.
+T8	Sentence 324 359	Surgery: Routine Ovariohysterectomy
+T9	Sentence 377 406	Ligatures (Ovaries):3M catgut
+T10	Sentence 424 462	Ligature (Cervix):3M catgut transfixed
+T11	Sentence 480 516	Muscle sutures:3/0 Vicryl continuous
+T12	Sentence 534 582	Subcuticular sutures:3m catgut continuous 2 rows
+T13	Sentence 600 613	Skin sutures:
+T14	Sentence 617 647	Hospital: Uneventful recovery.
+T15	Sentence 651 681	Plan: Nurse examination in 1d.
+T16	Sentence 687 715	--- 03/12/2014 08:51:27 L62:
+T17	Sentence 717 736	Surgery Follow Up -
+T18	Sentence 739 777	Resolved - Post op app booked in today
+T19	Sentence 781 809	--- 02/03/2015 11:09:10 E22:
+T20	Sentence 811 824	Post Neuter -
+T21	Sentence 827 849	Resolved - poc, all ok

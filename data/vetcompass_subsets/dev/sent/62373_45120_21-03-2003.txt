@@ -1,0 +1,8 @@
+  1    castc  (cat castrate benefit)           17.01
+ -1.2  Benefit Discount 12%                    -2.12
+Ga ---> castrate cat. No probs...
+ -1    castc  (cat castrate benefit)          -17.01
+  1.2  Benefit Discount 12%                     2.12
+  1    CAT CARE CONSORTIUM                      0.00
+If client comes in on 25/3 please explain that the cost 
+of the castrate has been covered.lc

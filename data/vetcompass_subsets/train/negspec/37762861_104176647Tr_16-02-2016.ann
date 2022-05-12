@@ -1,0 +1,38 @@
+T1	NegSignal 177 182	hasnt
+T2	NegScope 177 205	hasnt been constipated since
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 219 222	nad
+T4	NegScope 208 222	Chest ausc nad
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 300 304	dont
+T6	NegScope 300 337	dont want any sudden dramatic wt loss
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 469 476	wouldnt
+T8	NegScope 465 495	cat wouldnt tolerate conscious
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 556 559	not
+T10	NegScope 552 565	Jaw not fused
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	NegSignal 779 782	not
+T12	NegScope 779 792	not yet fused
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	SpecSignal 794 798	poss
+T14	SpecScope 794 846	poss due to chronicity of frac, or also due to infec
+T15	SpecSignal 826 828	or
+R7	SpecSignal-SpecScope Arg1:T15 Arg2:T14	
+R8	SpecSignal-SpecScope Arg1:T13 Arg2:T14	
+T16	NegSignal 955 959	wont
+T17	NegScope 955 979	wont tolerate tabletting
+R9	NegSignal-NegScope Arg1:T16 Arg2:T17	
+T18	SpecSignal 1007 1011	poss
+T19	SpecScope 1007 1051	poss look to remove wire after this if fused
+R10	SpecSignal-SpecScope Arg1:T18 Arg2:T19	
+T20	SpecSignal 1073 1074	?
+T21	SpecScope 1054 1074	Otherwise second sx?
+R11	SpecSignal-SpecScope Arg1:T20 Arg2:T21	
+T22	SpecSignal 1099 1100	?
+T23	SpecScope 1076 1100	Referral if not healing?
+R12	SpecSignal-SpecScope Arg1:T22 Arg2:T23	
+T24	NegSignal 573 581	unstable
+T25	NegScope 567 581	still unstable
+R13	NegSignal-NegScope Arg1:T24 Arg2:T25	

@@ -1,0 +1,9 @@
+T1	NegSignal 125 127	No
+T2	NegScope 125 144	No concerns at home
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 226 228	no
+T4	NegScope 226 236	no C/S/V/D
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 449 452	NAD
+T6	NegScope 439 452	Abdo palp NAD
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

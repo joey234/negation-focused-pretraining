@@ -1,0 +1,9 @@
+T1	SpecSignal 19 27	Not sure
+T2	SpecScope 19 60	Not sure if tick is completely removed LS
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 124 127	nad
+T4	NegScope 119 127	EDDU nad
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 143 146	nad
+T6	NegScope 129 146	Heart/chest - nad
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

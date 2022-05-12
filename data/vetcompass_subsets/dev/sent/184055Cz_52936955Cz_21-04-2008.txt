@@ -1,0 +1,40 @@
+ch - Weight Recorded As  17.2 Kg.
+
+sg - Lab. Report (Kbd): DOG pga
+
+sg - HCT on low side_ may need to re check in a
+
+sg - months time.
+
+ao - 1 x Lab - Inhouse Pre-GA/CBC/Lytes        48.60
+
+ao - 1 x general anaesthetic - dog 12-20kg     49.50
+
+ao - .86 x synulox rtu inj                        7.03
+
+ao - .68 x metacam 5mg/ml inj                    10.52
+
+ao - 2 x tumour/lump removal                  135.00
+
+ao - 2 x Vet time (per 15 min)                 53.99
+
+ao - 1 x metacam 10ml^                          9.22
+
+ao - - Dosage: give dose for a 17kg dog
+
+ao - -              once daily start in morning
+
+ao - 5 x synulox tabs 250mg^                    9.24
+
+ao - - Dosage: 1/2 tablet morning and night
+
+ao - -              start tomorrow morning
+
+ao - 10 x discount                               0.00
+
+ao - -1 x correction                           -29.08
+
+ao - 1 x correction                            28.82
+
+sc - Payment By Db/Cr  Ref: sc                    322.84
+

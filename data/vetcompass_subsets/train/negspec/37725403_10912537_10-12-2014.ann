@@ -1,0 +1,6 @@
+T1	NegSignal 93 96	NAD
+T2	NegScope 93 118	NAD on exam under seation
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 24 30	Unable
+T4	NegScope 24 40	Unable to handle
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

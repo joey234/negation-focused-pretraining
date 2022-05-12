@@ -1,0 +1,6 @@
+T1	SpecSignal 19 27	possible
+T2	SpecScope 19 50	possible fight with another cat
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 438 445	Suspect
+T4	SpecScope 438 519	Suspect fight wounds to L nictitans with developing abscess cranial to L shoulder
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

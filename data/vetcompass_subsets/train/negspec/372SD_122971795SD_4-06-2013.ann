@@ -1,0 +1,3 @@
+T1	NegSignal 603 606	nad
+T2	NegScope 603 610	nad c/e
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

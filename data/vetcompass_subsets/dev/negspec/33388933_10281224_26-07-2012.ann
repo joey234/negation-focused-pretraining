@@ -1,0 +1,9 @@
+T1	NegSignal 223 226	not
+T2	NegScope 223 236	not sensitive
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 323 326	NAD
+T4	NegScope 318 326	PE - NAD
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 168 181	doestn thinks
+T6	SpecScope 168 213	doestn thinks drinks fast unless had dry food
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

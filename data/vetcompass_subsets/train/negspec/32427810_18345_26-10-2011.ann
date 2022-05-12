@@ -1,0 +1,9 @@
+T1	NegSignal 28 35	doesn't
+T2	NegScope 28 63	doesn't want to pay as dog has died
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 72 78	didn't
+T4	NegScope 72 101	didn't know extent of surgery
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 181 188	doesn't
+T6	NegScope 181 216	doesn't see why he must pay so much
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

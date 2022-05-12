@@ -1,0 +1,9 @@
+T1	NegSignal 78 81	not
+T2	NegScope 78 103	not quite so erythematous
+T3	SpecSignal 123 133	looks like
+T4	SpecScope 123 154	looks like superficial pyoderma
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	NegSignal 156 158	No
+T6	NegScope 156 183	No point doing skin scrapes
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,14 @@
+T2	SpecScope 0 30	Looks like liver is working ok
+T3	SpecSignal 73 78	would
+T4	SpecSignal 82 90	expected
+T6	SpecScope 73 126	would be expected to be ok from a liver point of view
+T7	SpecSignal 155 161	likely
+T8	SpecScope 155 196	likely to have protein losing enteropathy
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T1	SpecSignal 0 10	Looks like
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+R2	SpecSignal-SpecScope Arg1:T4 Arg2:T6	
+R3	SpecSignal-SpecScope Arg1:T3 Arg2:T6	
+T5	SpecSignal 357 365	rule out
+T9	SpecScope 357 384	rule out inflammatory fluid
+R5	SpecSignal-SpecScope Arg1:T5 Arg2:T9	

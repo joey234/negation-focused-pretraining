@@ -1,0 +1,6 @@
+T1	NegSignal 119 121	no
+T2	NegScope 119 131	no follow up
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 158 164	didn't
+T4	NegScope 158 198	didn't understand how to use effectively
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

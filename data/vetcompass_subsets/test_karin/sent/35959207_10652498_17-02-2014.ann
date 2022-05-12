@@ -1,0 +1,18 @@
+T1	Sentence 0 23	Reason: GA Cat Castrate
+T2	Sentence 27 73	Examination: Pre-op physical examination = NAD
+T3	Sentence 77 115	Laboratory: NOTHING OF CONCERN ON PABS
+T4	Sentence 119 175	Medications:     Premed = Acepromazine and Buprenorphine
+T5	Sentence 201 235	PreEmptive pain relief = Meloxicam
+T6	Sentence 261 287	Induction agent = Propofol
+T7	Sentence 313 342	Maintenance = O2 & Isoflurane
+T8	Sentence 346 406	Surgical Procedure: Open castration through scrotal incision
+T9	Sentence 438 484	Cord and blood vessels tied off on themselves.
+T10	Sentence 489 519	Hospital: Uneventful recovery.
+T11	Sentence 523 553	Plan: POC in 2 days with nurse
+T12	Sentence 557 585	--- 18/02/2014 08:15:43 117:
+T13	Sentence 587 606	Surgery Follow Up -
+T14	Sentence 609 685	Resolved - Called owner to check that Ralph is doing ok after yesterdays op.
+T15	Sentence 687 739	Eating drinking and going to the loo ok? left v/mail
+T16	Sentence 743 771	--- 17/07/2014 10:46:23 C05:
+T17	Sentence 773 786	Post Neuter -
+T18	Sentence 789 835	Resolved - Telephoned and owner not available.

@@ -1,0 +1,3 @@
+T1	SpecSignal 13 20	suspect
+T2	SpecScope 13 24	suspect pyo
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

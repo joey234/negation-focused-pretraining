@@ -1,0 +1,38 @@
+T1	NegSignal 661 663	No
+T2	NegScope 661 669	No V/C/S
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 691 693	no
+T4	NegScope 691 713	no change in urination
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 828 831	NAD
+T6	NegScope 828 840	NAD in mouth
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 871 874	NAD
+T8	NegScope 860 874	Chest ausc NAD
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 903 907	poss
+T10	SpecSignal 937 938	?
+T11	SpecScope 903 938	poss feel larger than would expect?
+R5	SpecSignal-SpecScope Arg1:T10 Arg2:T11	
+R6	SpecSignal-SpecScope Arg1:T9 Arg2:T11	
+T12	SpecSignal 939 949	Can't feel
+T13	SpecScope 939 983	Can't feel any masses or other abnormalities
+T14	SpecSignal 1039 1040	?
+T15	SpecScope 1029 1040	Adrenal dx?
+R8	SpecSignal-SpecScope Arg1:T14 Arg2:T15	
+T16	SpecSignal 1048 1049	?
+T17	SpecScope 1041 1049	Gi infx?
+R9	SpecSignal-SpecScope Arg1:T16 Arg2:T17	
+T18	SpecSignal 1060 1061	?
+T19	SpecScope 1050 1061	Insulinoma?
+R10	SpecSignal-SpecScope Arg1:T18 Arg2:T19	
+T20	SpecSignal 1067 1068	?
+T21	SpecScope 1062 1068	other?
+R11	SpecSignal-SpecScope Arg1:T20 Arg2:T21	
+T22	SpecSignal 1248 1252	poss
+T23	SpecScope 1248 1275	poss referral to specialist
+R12	SpecSignal-SpecScope Arg1:T22 Arg2:T23	
+R7	SpecSignal-SpecScope Arg1:T12 Arg2:T13	
+T24	NegSignal 565 568	not
+T25	NegScope 565 595	not voluntarily eaten anything
+R13	NegSignal-NegScope Arg1:T24 Arg2:T25	

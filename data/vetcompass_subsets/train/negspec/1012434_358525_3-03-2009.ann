@@ -1,0 +1,3 @@
+T1	NegSignal 266 269	not
+T2	NegScope 266 295	not got enough money with him
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

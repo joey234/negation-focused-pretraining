@@ -1,0 +1,3 @@
+T1	SpecSignal 365 366	?
+T2	SpecScope 365 371	? cyst
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

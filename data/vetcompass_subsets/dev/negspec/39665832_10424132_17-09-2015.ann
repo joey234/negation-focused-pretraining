@@ -1,0 +1,3 @@
+T1	NegSignal 86 88	No
+T2	NegScope 86 107	No fractures on x-ray
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

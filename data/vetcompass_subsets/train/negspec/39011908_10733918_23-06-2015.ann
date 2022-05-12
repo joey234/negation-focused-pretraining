@@ -1,0 +1,6 @@
+T1	NegSignal 162 165	NAD
+T2	NegScope 148 165	Thoracic ausc NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 178 188	impossible
+T4	NegScope 168 188	Abdo palp impossible
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,3 @@
+T1	NegSignal 61 63	No
+T2	NegScope 61 70	No answer
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

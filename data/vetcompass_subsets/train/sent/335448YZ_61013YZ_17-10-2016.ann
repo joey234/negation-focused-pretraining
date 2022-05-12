@@ -1,0 +1,11 @@
+T1	Sentence 0 21	Reason: GB - Check Up
+T2	Sentence 23 43	History-Environment:
+T3	Sentence 48 73	History-Parasite Control:
+T4	Sentence 78 102	History-Wellness Status:
+T5	Sentence 107 158	1.List vaccinations/treatments outside this clinic?
+T6	Sentence 162 205	History-Prior Illnesses, Trauma, Surgeries:
+T7	Sentence 210 218	History:
+T8	Sentence 223 235	Examination:
+T9	Sentence 240 251	Assessment:
+T10	Sentence 256 272	Plan-Diagnostic:
+T11	Sentence 277 294	Plan-Therapeutic:

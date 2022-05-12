@@ -1,0 +1,3 @@
+T1	SpecSignal 759 762	may
+T2	SpecScope 759 785	may cause hypersensitivity
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

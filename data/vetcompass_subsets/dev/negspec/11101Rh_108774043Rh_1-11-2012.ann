@@ -1,0 +1,3 @@
+T1	NegSignal 899 901	No
+T2	NegScope 899 915	No complications
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	NegSignal 172 175	not
+T2	NegScope 172 183	not licking
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 436 442	hasn't
+T4	NegScope 436 456	hasn't brought purse
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

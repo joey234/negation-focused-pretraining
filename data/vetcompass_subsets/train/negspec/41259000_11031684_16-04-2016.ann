@@ -1,0 +1,12 @@
+T1	NegSignal 134 137	not
+T2	NegScope 134 157	not full op all at once
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 406 409	not
+T4	NegScope 406 422	not deteriorated
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 427 429	no
+T6	NegScope 427 435	no worse
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 521 522	?
+T8	SpecScope 501 522	Some swelling there ?
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

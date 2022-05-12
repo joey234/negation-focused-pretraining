@@ -1,0 +1,3 @@
+T1	NegSignal 115 118	not
+T2	NegScope 115 152	not to restart the vaccination course
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

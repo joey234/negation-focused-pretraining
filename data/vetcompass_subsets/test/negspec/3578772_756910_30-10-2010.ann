@@ -1,0 +1,9 @@
+T1	SpecSignal 152 155	may
+T2	SpecScope 152 172	may need extractions
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2
+T3	SpecSignal 207 210	may
+T4	SpecScope 207 224	may also need abs
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 98 103	looks
+T6	SpecScope 84 114	LU carnassial looks a bit sore
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

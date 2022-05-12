@@ -1,0 +1,6 @@
+T1	NegSignal 223 225	No
+T2	NegScope 223 242	No apparent warning
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 244 246	No
+T4	NegScope 244 276	No real bheaviourist involvement
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

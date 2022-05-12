@@ -1,0 +1,3 @@
+T1	SpecScope 52 66;69 88	may need to go To next price range
+T2	SpecSignal 52 55	may
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

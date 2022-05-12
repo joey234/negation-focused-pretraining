@@ -1,0 +1,6 @@
+T1	NegSignal 66 68	no
+T2	NegScope 66 101	no growth/isolation of any bacteria
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 55 65	Seems like
+T4	SpecScope 55 101	Seems like no growth/isolation of any bacteria
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

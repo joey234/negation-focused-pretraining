@@ -1,0 +1,3 @@
+T1	NegSignal 795 797	no
+T2	NegScope 795 806	no problems
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

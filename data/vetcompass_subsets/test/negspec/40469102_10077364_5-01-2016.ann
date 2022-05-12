@@ -1,0 +1,6 @@
+T1	NegSignal 107 109	No
+T2	NegScope 107 126	No obvious injuries
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 348 351	not
+T4	NegScope 348 382	not obviously any deeper than skin
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

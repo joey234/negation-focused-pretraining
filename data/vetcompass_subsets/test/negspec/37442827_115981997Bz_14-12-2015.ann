@@ -1,0 +1,44 @@
+T1	NegSignal 204 207	not
+T2	NegScope 204 214	not watery
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 216 218	no
+T4	NegScope 216 224	no blood
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 226 228	no
+T6	NegScope 226 234	no mucus
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 236 238	No
+T8	NegScope 236 243	No v+cs
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 405 409	poss
+T10	SpecScope 405 449	poss mass in cranial abdomen (spleen/liver?)
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 447 448	?
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T10	
+T12	SpecSignal 471 475	poss
+T13	SpecScope 471 499	poss ascites/abdominal fluid
+R7	SpecSignal-SpecScope Arg1:T12 Arg2:T13	
+T14	SpecSignal 927 931	poss
+T15	SpecScope 927 967	poss liver involvement with low BUN/Chol
+R8	SpecSignal-SpecScope Arg1:T14 Arg2:T15	
+T16	SpecSignal 973 984	possibility
+T17	SpecScope 973 997	possibility of neoplasia
+R9	SpecSignal-SpecScope Arg1:T16 Arg2:T17	
+T18	NegSignal 1088 1091	not
+T19	NegScope 1088 1139	not proceed with any surgical treatment if required
+R10	NegSignal-NegScope Arg1:T18 Arg2:T19	
+T20	SpecSignal 1146 1150	poss
+T21	SpecScope 1146 1172	poss other causes of signs
+R11	SpecSignal-SpecScope Arg1:T20 Arg2:T21	
+T22	SpecSignal 1182 1185	can
+T23	SpecScope 1174 1219	imaging can r/o mass and free abdominal fluid
+R12	SpecSignal-SpecScope Arg1:T22 Arg2:T23	
+T24	SpecSignal 1352 1355	may
+T25	SpecScope 1352 1375	may deteriorate rapidly
+R13	SpecSignal-SpecScope Arg1:T24 Arg2:T25	
+T26	SpecSignal 883 892	potential
+T27	SpecScope 883 925	potential for active abdominal haemorrhage
+R14	SpecSignal-SpecScope Arg1:T26 Arg2:T27	
+T28	SpecSignal 629 635	likely
+T29	SpecScope 629 694	likely imaging inc abdominal radiographs and abdominal ultrasound
+R15	SpecSignal-SpecScope Arg1:T28 Arg2:T29	

@@ -1,0 +1,12 @@
+T1	NegSignal 97 99	No
+T2	NegScope 97 130	No further neurolog deteriroation
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 283 286	not
+T4	NegScope 283 307	not wanting referral yet
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 345 348	nad
+T6	NegScope 331 348	Abdomen still nad
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 350 352	no
+T8	NegScope 350 357	no d-v-
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

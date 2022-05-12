@@ -1,0 +1,12 @@
+SJ - Examine dog vaccination  c
+
+SJ - nob dhppi a036c01 lepto a013a01
+
+SJ - 1 x dog 2nd vacc + health chk              0.00
+
+SJ - 1 x PromMicro                              0.00
+
+SJ - 1 x milbemax puppy and small dog           1.20
+
+jt - Payment By Cash  Ref: jt                       1.20
+

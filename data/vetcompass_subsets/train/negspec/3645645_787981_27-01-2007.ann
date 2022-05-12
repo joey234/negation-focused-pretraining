@@ -1,0 +1,6 @@
+T1	NegSignal 443 445	no
+T2	NegScope 443 466	no longer goes upstairs
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 517 520	not
+T4	NegScope 517 531	not like water
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

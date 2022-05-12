@@ -1,0 +1,28 @@
+T1	SpecSignal 151 152	?
+T2	SpecSignal 166 173	unclear
+T3	SpecScope 120 200	diagnosed with lung condition (? - o a little unclear on details) at current vet
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T3	
+R2	SpecSignal-SpecScope Arg1:T2 Arg2:T3	
+T4	NegSignal 766 772	unable
+T5	NegScope 766 805	unable to afford estimate from prev vet
+R3	NegSignal-NegScope Arg1:T4 Arg2:T5	
+T6	NegSignal 854 856	No
+T7	NegScope 854 867	No obv goitre
+R4	NegSignal-NegScope Arg1:T6 Arg2:T7	
+T8	SpecSignal 931 940	Concerned
+T9	SpecScope 931 975	Concerned re tachycardia and tachypnoea here
+R5	SpecSignal-SpecScope Arg1:T8 Arg2:T9	
+T10	NegSignal 1052 1055	NAD
+T11	NegScope 1052 1059	NAD obv
+R6	NegSignal-NegScope Arg1:T10 Arg2:T11	
+T12	SpecSignal 1081 1087	Likely
+T13	SpecScope 1081 1115	Likely in congestive heart failure
+R7	SpecSignal-SpecScope Arg1:T12 Arg2:T13	
+T14	SpecSignal 1394 1397	may
+T15	SpecScope 1394 1451	may need to introduce aspirin at home once echo performed
+R8	SpecSignal-SpecScope Arg1:T14 Arg2:T15	
+T16	SpecSignal 1261 1270	suspicion
+T18	SpecSignal 1287 1295	rule out
+T17	SpecScope 1257 1317	min suspicion of this best to rule out and suggest BP checks
+R9	SpecSignal-SpecScope Arg1:T16 Arg2:T17	
+R10	SpecSignal-SpecScope Arg1:T18 Arg2:T17	

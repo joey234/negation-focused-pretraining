@@ -1,0 +1,3 @@
+T1	SpecSignal 8 12	Poss
+T2	SpecScope 8 20	Poss Restart
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

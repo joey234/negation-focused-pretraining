@@ -1,0 +1,10 @@
+T1	Sentence 0 23	Reason: Bandage Removal
+T2	Sentence 27 49	Wound ok, healing well
+T3	Sentence 51 66	Dressing change
+T4	Sentence 68 118	Plan: rex in 2 weeks if poss buster collar on next
+T5	Sentence 120 135	History-Update:
+T6	Sentence 140 152	Examination:
+T7	Sentence 158 169	Assessment:
+T8	Sentence 175 180	Plan:
+T9	Sentence 186 222	Bandages & Dressings: Apply Dressing
+T10	Sentence 226 231	Site:

@@ -1,0 +1,3 @@
+T1	SpecSignal 21 27	thinks
+T2	SpecScope 21 45	thinks it's time for pts
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

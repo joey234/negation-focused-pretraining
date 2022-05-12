@@ -1,0 +1,20 @@
+Reason: Cpl Vouch Spay
+Examination: Pre-op physical examination = NAD
+
+Laboratory: 
+
+Medications: 
+                        Pre-emptive pain relief = 0.3metacam
+                        Induction agent = dom 0.24, torb 0.12, ketamine 0.15, atipam 0.12 
+                        Maintenance = Isoflurane in Oxygen
+
+Surgery: Routine Ovariohysterectomy performed through incision in the :flank
+                Ligatures (Ovaries): 3.5m gut
+                Ligature (Cervix):4m gut
+                Muscle sutures:3.5m gut
+                Subcuticular sutures:3.5m gut
+                Skin sutures:3.5 m gut
+
+Hospital: Uneventful recovery.
+
+Plan: Reexamine with nurse in 2- 5 days.

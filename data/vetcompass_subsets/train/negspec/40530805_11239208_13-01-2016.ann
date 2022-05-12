@@ -1,0 +1,6 @@
+T1	NegSignal 1181 1184	not
+T2	NegScope 1181 1200	not already chipped
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 1370 1373	not
+T4	NegScope 1370 1423	not nervous at all with me and everything i have done
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,9 @@
+T1	NegSignal 490 493	-ve
+T2	NegScope 481 493	Flea dirt-ve
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 495 497	No
+T4	NegScope 495 527	No harvest mites seen on scrapes
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 562 564	No
+T6	NegScope 562 577	No hx available
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

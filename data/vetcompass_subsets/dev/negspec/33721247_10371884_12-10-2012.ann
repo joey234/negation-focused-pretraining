@@ -1,0 +1,15 @@
+T1	NegSignal 242 245	NAD
+T2	NegScope 242 245	NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 43 45	or
+T4	SpecScope 22 48	Spot-on applied: yes or no
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 75 77	or
+T6	SpecScope 56 80	Micro-chipped: yes or no
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 97 99	or
+T8	SpecScope 82 102	RCW Given: yes or no
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 127 129	or
+T10	SpecScope 104 132	Worm Tablet Given: YES or NO
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	

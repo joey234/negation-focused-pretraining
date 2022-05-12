@@ -1,0 +1,3 @@
+T1	SpecScope 0 13	erythema poss
+T2	SpecSignal 9 13	poss
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

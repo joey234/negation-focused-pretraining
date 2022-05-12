@@ -1,0 +1,38 @@
+T1	SpecSignal 95 100	seems
+T2	SpecScope 95 133	seems to improve a little with bathing
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 243 246	Not
+T4	NegScope 243 261	Not bothered by it
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 263 266	not
+T6	NegScope 263 275	not pruritic
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 277 279	No
+T8	NegScope 277 298	No concerns otherwise
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 315 317	no
+T10	NegScope 315 337	no V/Coughing/sneezing
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	NegSignal 496 499	NAD
+T12	NegScope 496 532	NAD thoracic ausc and abdo palpation
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	NegSignal 622 625	not
+T14	NegScope 622 646	not painful on palpation
+R7	NegSignal-NegScope Arg1:T13 Arg2:T14	
+T15	NegSignal 683 686	NAD
+T16	NegScope 683 709	NAD on opthalmoscopic exam
+R8	NegSignal-NegScope Arg1:T15 Arg2:T16	
+T17	NegSignal 714 716	no
+T18	NegScope 714 735	no fluorescene uptake
+R9	NegSignal-NegScope Arg1:T17 Arg2:T18	
+T19	SpecSignal 872 875	may
+T20	SpecSignal 879 887	possible
+T21	SpecScope 872 896	may be possible zoonosis
+R10	SpecSignal-SpecScope Arg1:T19 Arg2:T21	
+R11	SpecSignal-SpecScope Arg1:T20 Arg2:T21	
+T22	SpecSignal 819 820	?
+T23	SpecScope 811 820	ringworm?
+R12	SpecSignal-SpecScope Arg1:T22 Arg2:T23	
+T24	SpecSignal 792 793	?
+T25	SpecScope 767 793	after bite/sting reaction?
+R13	SpecSignal-SpecScope Arg1:T24 Arg2:T25	

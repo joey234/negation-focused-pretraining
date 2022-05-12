@@ -1,0 +1,21 @@
+T1	NegSignal 122 124	no
+T2	NegScope 122 133	no concerns
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 151 153	No
+T4	NegScope 151 163	No stiffness
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 165 167	No
+T6	NegScope 165 175	No V/D/C/S
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 177 179	No
+T8	NegScope 177 209	No need for flea treatment today
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 302 305	NAF
+T10	NegScope 263 305	Eyes, Ears, Nose, Throat, Lymph nodes: NAF
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	NegSignal 432 435	NAF
+T12	NegScope 403 435	Heart and lung auscultation: NAF
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	NegSignal 486 489	NAF
+T14	NegScope 469 489	Muskuloskeletal: NAF
+R7	NegSignal-NegScope Arg1:T13 Arg2:T14	

@@ -1,0 +1,3 @@
+T1	SpecSignal 51 52	?
+T2	SpecScope 51 86	? Gastritis related to NSAIDS usage
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

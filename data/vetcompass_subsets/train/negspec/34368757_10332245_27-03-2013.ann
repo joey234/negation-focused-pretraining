@@ -1,0 +1,9 @@
+T1	NegSignal 424 426	No
+T2	NegScope 424 430	No pus
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 421 423	??
+T4	SpecScope 352 423	bleeding ++ from socket - source of original bleeding when brought in??
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 612 618	unsure
+T6	SpecScope 612 651	unsure if will be allowed to view mouth
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

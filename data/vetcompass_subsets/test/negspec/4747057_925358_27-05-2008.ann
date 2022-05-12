@@ -1,0 +1,12 @@
+T1	SpecSignal 44 51	suspect
+T2	SpecScope 44 61	suspect back pain
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 91 93	no
+T4	NegScope 91 98	no pupd
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 99 101	no
+T6	NegScope 99 105	no vom
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 106 108	no
+T8	NegScope 106 118	no diarrhoea
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

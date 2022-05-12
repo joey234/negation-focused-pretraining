@@ -1,0 +1,18 @@
+T1	NegSignal 434 437	not
+T2	NegScope 434 445	not working
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 379 389	looks like
+T4	SpecScope 379 407	looks like has put on weight
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	NegSignal 457 460	not
+T6	NegScope 457 480	not palpable in consult
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 564 569	could
+T8	SpecScope 543 613	continual infections could be secondary to renal disease and/or stress
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	NegSignal 614 621	haven't
+T10	NegScope 614 637	haven't taken rads/scan
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T12	SpecSignal 641 655	can't rule out
+T13	SpecScope 641 679	can't rule out uroliths/neoplasia etc.
+R6	SpecSignal-SpecScope Arg1:T12 Arg2:T13	

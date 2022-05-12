@@ -1,0 +1,14 @@
+T1	NegSignal 14 17	nad
+T2	NegScope 14 17	nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 205 207	no
+T4	NegScope 205 216	no concerns
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 84 87	may
+T6	SpecSignal 66 71	looks
+T7	SpecScope 66 96	looks as tho some may be loose
+R3	SpecSignal-SpecScope Arg1:T6 Arg2:T7	
+R4	SpecSignal-SpecScope Arg1:T5 Arg2:T7	
+T8	SpecSignal 113 123	likelyhood
+T9	SpecScope 113 138	likelyhood of extractions
+R5	SpecSignal-SpecScope Arg1:T8 Arg2:T9	

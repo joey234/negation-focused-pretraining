@@ -1,0 +1,6 @@
+T2	SpecSignal 550 553	may
+T1	SpecScope 550 565	may be pregnant
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	
+T3	NegSignal 731 734	not
+T4	NegScope 731 759	not eaten or drunk in a week
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,12 @@
+T1	NegSignal 19 22	NAD
+T2	NegScope 16 22	PE NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 24 26	No
+T4	NegScope 24 33	No issues
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 249 252	NAD
+T6	NegScope 246 252	PE NAD
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 254 256	No
+T8	NegScope 254 263	No issues
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

@@ -1,0 +1,33 @@
+T1	Sentence 0 6	Clinic
+T2	Sentence 8 18	Nottingham
+T3	Sentence 21 43	Vets Now Emergency Ltd
+T4	Sentence 45 63	Fax: 0845 556 4934
+T5	Sentence 66 72	Client
+T6	Sentence 74 87	Mr Tom Murray
+T7	Sentence 90 109	138 Rolleston Drive
+T8	Sentence 111 117	Arnold
+T9	Sentence 119 129	Nottingham
+T10	Sentence 131 138	NG5 7JQ
+T11	Sentence 140 154	United Kingdom
+T12	Sentence 157 186	Mobile Telephone: 07847252138
+T13	Sentence 189 195	Animal
+T14	Sentence 197 202	PETAL
+T15	Sentence 205 234	Species: Rabbit (unspecified)
+T16	Sentence 237 251	Gender: Female
+T17	Sentence 254 262	Age: 5 d
+T18	Sentence 265 277	Case Details
+T19	Sentence 279 294	Case ID: 443876
+T20	Sentence 297 327	Case Date: 21/05/2015 20:12:03
+T21	Sentence 330 348	Symptom: Head tilt
+T22	Sentence 351 442	Phone call details: Rabbit suffering with head tilt [By Janice Ryan at May 21 2015 08:11PM]
+T23	Sentence 445 511	Phone advice given: Appointment offered, however is PDSA eligible.
+T24	Sentence 512 532	Given direct number.
+T25	Sentence 533 572	[By Janice Ryan at May 21 2015 08:11PM]
+T26	Sentence 575 596	Presenting Complaint:
+T27	Sentence 599 611	Case History
+T28	Sentence 613 702	Advice Requested: Rabbit suffering with head tilt [By Janice Ryan at May 21 2015 08:11PM]
+T29	Sentence 705 765	Advice Given: Appointment offered, however is PDSA eligible.
+T30	Sentence 766 786	Given direct number.
+T31	Sentence 787 826	[By Janice Ryan at May 21 2015 08:11PM]
+T32	Sentence 829 867	Reason Code: Declined for other reason
+T33	Sentence 870 899	Reason Detail: PDSA eligible.

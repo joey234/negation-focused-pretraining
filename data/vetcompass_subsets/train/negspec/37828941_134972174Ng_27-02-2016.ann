@@ -1,0 +1,12 @@
+T1	NegSignal 88 90	No
+T2	NegScope 88 97	No trauma
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 165 167	no
+T4	NegScope 165 171	no v/d
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 328 330	No
+T6	NegScope 328 357	No palpable effusion/crepitus
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 359 362	Nad
+T8	NegScope 359 375	Nad rest of exam
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

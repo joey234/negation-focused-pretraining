@@ -1,0 +1,18 @@
+T1	NegSignal 8 11	Not
+T2	NegScope 8 27	Not Eating/drinking
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 111 114	not
+T4	NegScope 111 123	not drinking
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 405 407	no
+T6	NegScope 405 425	no obvious pathology
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 446 447	?
+T8	SpecScope 441 447	viral?
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 473 474	?
+T10	SpecScope 448 474	Underlying kidney failure?
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	NegSignal 635 637	no
+T12	NegScope 635 654	no interest in food
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	

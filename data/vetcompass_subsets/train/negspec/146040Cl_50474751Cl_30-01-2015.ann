@@ -1,0 +1,6 @@
+T1	NegScope 357 368	no concerns
+T2	NegSignal 357 359	no
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 184 192	abdo nad
+T4	NegSignal 189 192	nad
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

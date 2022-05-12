@@ -1,0 +1,37 @@
+T1	Sentence 2 52	1    cons 1(1st con)                         23.42
+T2	Sentence 56 106	1    Lab BAH a (5x VetTests)                 31.14
+T3	Sentence 110 160	1    Lab BAH PCV+TP                           5.63
+T4	Sentence 164 214	1    cystocentesis                           11.77
+T5	Sentence 218 268	1    lab bah urinalysis stix+sg               4.98
+T6	Sentence 271 322	14    synuloxa 50mg                            9.72
+T7	Sentence 327 349	"1 tablet twice daily"
+T8	Sentence 372 424	-14    synuloxa 50mg                           -9.72
+T9	Sentence 428 478	1    Synulox Drops                           11.61
+T10	Sentence 483 502	"0.5ml twice daily"
+T11	Sentence 530 580	2    HF i/d can                               1.60
+T12	Sentence 584 634	1    catnip critter                           3.30
+T13	Sentence 637 688	-1    catnip critter                          -3.30
+T14	Sentence 692 742	1    wool mouse                               1.28
+T15	Sentence 744 800;802 842	O reports Sheba has been innapetant for the last 2 days, only eating a very small amount of food.
+T17	Sentence 843 847;850 878	Also regurgitated twice furballs.
+T19	Sentence 880 933	Feaces normal now, so O didn't bring a faecal sample.
+T20	Sentence 935 988;991 1007	Sheba is been hiding behind the sofa for the last two days and quiter.
+T22	Sentence 1009 1041	O syringing her water regularly.
+T23	Sentence 1045 1095;1098 1116	On clinical exam very, very mild skin tent, vitals normal temp 39.1C.
+T25	Sentence 1120 1152	Admit for bloods and urinalysis.
+T26	Sentence 1156 1176	Biochemestry ( ALKP/
+T27	Sentence 1178 1194	Urea 12.76mmol\l
+T28	Sentence 1196 1210	Crea 225umol\l
+T29	Sentence 1212 1229	ALKP,ALT,Gluc nad
+T30	Sentence 1233 1240	PCV 32%
+T31	Sentence 1242 1249	TP66g\l
+T32	Sentence 1253 1278	So renal function stable.
+T33	Sentence 1282 1322	Urinalysis reveals ph 6, prot+, hgb ++++
+T34	Sentence 1324 1333	USG 1.028
+T35	Sentence 1337 1368	Dx: Stable mild renal azotaemia
+T36	Sentence 1370 1423;1426 1439	Diff-quick of urine reveals small no. of G+ bacteria, cast and RBC.
+T38	Sentence 1441 1497;1499 1551	Dx: concurrent cystitis probably self-limiting but start with antibiotic course as Sheba is showing lethargy.
+T40	Sentence 1555 1560	Plan:
+T41	Sentence 1562 1599	-Bland diet and katalax for fur balls
+T42	Sentence 1601 1616	-synulox course
+T43	Sentence 1618 1665;1668 1715	-reduce stress to minimun, eg. not necessary to syringing her with water if eating wet food ok.

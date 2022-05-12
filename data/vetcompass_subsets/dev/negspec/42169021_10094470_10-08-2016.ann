@@ -1,0 +1,6 @@
+T1	NegSignal 136 139	not
+T2	NegScope 136 146	not uncomf
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 273 277	Poss
+T4	SpecScope 273 287	Poss interv DD
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

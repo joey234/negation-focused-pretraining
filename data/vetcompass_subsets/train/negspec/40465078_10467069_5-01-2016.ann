@@ -1,0 +1,9 @@
+T1	NegSignal 171 176	never
+T2	NegScope 161 213	The O had never used an ear cleanser as a prevention
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 238 241	not
+T4	NegScope 238 246	not waxy
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 249 252	not
+T6	NegScope 249 262	not inflammed
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

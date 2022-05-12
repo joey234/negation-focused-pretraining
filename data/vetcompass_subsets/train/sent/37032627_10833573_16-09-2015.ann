@@ -1,0 +1,15 @@
+T1	Sentence 0 46	Examination: Pre-op physical examination = NAD
+T2	Sentence 50 61	Laboratory:
+T3	Sentence 66 78	Medications=
+T4	Sentence 105 139	Maintenance = Isoflurane in Oxygen
+T5	Sentence 143 230	Surgery: Routine Ovariohysterectomy performed through incision in the : flank / midline
+T6	Sentence 248 278	Ligatures (Ovaries):viclry 2-0
+T7	Sentence 296 324	Ligature (Cervix):vicrly 2-0
+T8	Sentence 342 367	Muscle sutures:vicrly 2-0
+T9	Sentence 385 416	Subcuticular sutures:viclry 2-0
+T10	Sentence 434 469	Skin sutures:vicrly 2-0 intradermal
+T11	Sentence 473 503	Hospital: Uneventful recovery.
+T12	Sentence 507 548	Plan: Reexamine with nurse in 3- 10 days.
+T13	Sentence 554 582	--- 21/09/2015 16:47:15 33Q:
+T14	Sentence 584 603	Surgery Follow Up -
+T15	Sentence 606 711	Resolved - Client has already been in for this prior to recall telepone call or recall no longer relevant

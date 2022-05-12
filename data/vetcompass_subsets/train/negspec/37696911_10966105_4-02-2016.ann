@@ -1,0 +1,15 @@
+T1	NegSignal 153 155	no
+T2	NegScope 135 155	Spot-on applied:  no
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 472 474	no
+T4	NegScope 472 499	no umbilical hernia presnet
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 210 212	or
+T6	SpecScope 194 215	Food Given: yes or no
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 255 257	or
+T8	SpecScope 217 260	4 weeks free insurance activated: yes or no
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 289 291	or
+T10	SpecScope 262 294	Voucher Booklet given: yes or no
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	

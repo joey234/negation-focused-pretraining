@@ -1,0 +1,3 @@
+T1	NegScope 84 117	Pre-op physical examination = NAD
+T2	NegSignal 114 117	NAD
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

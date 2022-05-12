@@ -1,0 +1,24 @@
+T1	SpecSignal 193 194	?
+T2	SpecScope 193 217	?Caustic/toxic ingestion
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 265 268	Nad
+T4	NegScope 265 286	Nad on abdo palpation
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 288 292	POSS
+T6	SpecScope 288 314	POSS ONE V+ A FEW days ago
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 526 533	Suspect
+T8	SpecScope 526 558	Suspect liver rather than kidney
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 368 369	?
+T10	SpecScope 368 377	?Fiv/felv
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 626 635	suspected
+T12	SpecScope 626 654	suspected gastric ulceration
+T13	NegSignal 319 322	not
+T14	NegScope 319 334	not eaten since
+R6	NegSignal-NegScope Arg1:T13 Arg2:T14	
+R7	SpecSignal-SpecScope Arg1:T11 Arg2:T12	
+T15	SpecSignal 388 393	looks
+T16	SpecScope 388 408	looks poor condition
+R8	SpecSignal-SpecScope Arg1:T15 Arg2:T16	

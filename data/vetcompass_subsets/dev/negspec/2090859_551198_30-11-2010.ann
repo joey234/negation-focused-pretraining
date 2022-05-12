@@ -1,0 +1,3 @@
+T1	SpecSignal 19 25	thinks
+T2	SpecScope 19 60	thinks micro chip is sticking out of skin
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

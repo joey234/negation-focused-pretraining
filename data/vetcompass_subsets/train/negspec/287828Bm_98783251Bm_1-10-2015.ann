@@ -1,0 +1,15 @@
+T1	NegSignal 240 242	no
+T3	NegSignal 344 347	not
+T4	NegScope 344 370	not even trying to swallow
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 406 412	hasn't
+T6	NegScope 406 430	hasn't passed any faeces
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 2279 2282	not
+T8	NegScope 2279 2289	not eating
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 2291 2293	No
+T10	NegScope 2291 2307	No faeces passed
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T2	NegScope 240 251	no interest
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

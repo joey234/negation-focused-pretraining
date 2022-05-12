@@ -1,0 +1,6 @@
+T1	NegScope 42 75	Pre-op physical examination = NAD
+T2	NegSignal 72 75	NAD
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 93 119	NOTHING OF CONCERN ON PABS
+T4	NegSignal 93 111	NOTHING OF CONCERN
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

@@ -1,0 +1,6 @@
+T1	NegSignal 175 178	not
+T2	NegScope 175 191	not been at work
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 201 203	no
+T4	NegScope 201 229	no more money til next month
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

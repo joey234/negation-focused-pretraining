@@ -1,0 +1,12 @@
+T1	NegSignal 42 47	never
+T2	NegScope 42 78	never completely been back to normal
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 319 322	NAD
+T4	NegScope 313 322	Heart NAD
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 328 331	NAD
+T6	NegScope 324 331	crt NAD
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 349 356	Suspect
+T8	SpecScope 349 427	Suspect underlying condition has caused the claws to grow in the way they have
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

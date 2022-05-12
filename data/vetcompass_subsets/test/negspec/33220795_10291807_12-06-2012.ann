@@ -1,0 +1,3 @@
+T1	SpecSignal 44 48	poss
+T2	SpecScope 44 77	poss fracture of lateral digit RF
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

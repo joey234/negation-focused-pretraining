@@ -1,0 +1,3 @@
+T1	NegSignal 31 34	not
+T2	NegScope 31 58	not had any probelms before
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

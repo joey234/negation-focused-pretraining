@@ -1,0 +1,3 @@
+T1	NegSignal 348 356	negative
+T2	NegScope 327 356	Giardia snap test is negative
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

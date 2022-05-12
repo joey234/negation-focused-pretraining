@@ -1,0 +1,3 @@
+T1	SpecSignal 218 227	piossibly
+T2	SpecScope 218 261	piossibly cojnsidering equilibrium dialysis
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	SpecSignal 84 90	Likely
+T2	SpecScope 84 112	Likely bacterial pharyngitis
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

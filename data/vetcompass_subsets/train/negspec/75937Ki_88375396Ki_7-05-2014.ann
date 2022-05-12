@@ -1,0 +1,3 @@
+T1	SpecSignal 186 191	seems
+T2	SpecScope 186 228	seems to be giving her some gip at present
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

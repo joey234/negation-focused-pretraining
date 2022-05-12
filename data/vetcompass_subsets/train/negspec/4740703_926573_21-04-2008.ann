@@ -1,0 +1,3 @@
+T1	NegSignal 96 99	not
+T2	NegScope 96 123	not managing biscuits at mo
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

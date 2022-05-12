@@ -1,0 +1,11 @@
+T1	SpecSignal 24 30	Thinks
+T2	SpecSignal 40 41	?
+T3	SpecScope 24 41	Thinks Infection?
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T3	
+R2	SpecSignal-SpecScope Arg1:T1 Arg2:T3	
+T4	SpecSignal 218 228	Feels like
+T5	SpecScope 218 235	Feels like lipoma
+R3	SpecSignal-SpecScope Arg1:T4 Arg2:T5	
+T6	NegSignal 241 247	cannot
+T7	NegScope 241 273	cannot confirm without lab tests
+R4	NegSignal-NegScope Arg1:T6 Arg2:T7	

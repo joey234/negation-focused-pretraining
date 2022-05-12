@@ -1,0 +1,16 @@
+T1	SpecSignal 733 739	Likely
+T2	SpecScope 733 760	Likely External Ear Disease
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 858 859	?
+T4	SpecScope 858 871;875 915	?bactroban Or lv - Flamazine When Settled_ Or  Aurizon
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 769 770	?
+T6	SpecScope 769 805;810 822	?proteolytic Bacteria Eg Pseudomonas lv - Proteus
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 1033 1039	Likely
+T8	SpecScope 1033 1051	Likely To Fall Out
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 869 871	Or
+T10	SpecSignal 904 906	Or
+R5	SpecSignal-SpecScope Arg1:T10 Arg2:T4	
+R6	SpecSignal-SpecScope Arg1:T9 Arg2:T4	

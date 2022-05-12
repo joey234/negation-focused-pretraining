@@ -1,0 +1,21 @@
+T1	SpecSignal 106 109	may
+T2	SpecScope 106 130	may just be scarring now
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T5	SpecSignal 167 170	may
+T6	SpecScope 167 196	may flare up once Abs stopped
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	NegSignal 234 237	Not
+T8	NegScope 234 262	Not getting any puss out now
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 391 398	without
+T10	NegScope 391 431	without more invasive procedures/surgery
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	NegSignal 379 382	not
+T12	NegScope 379 431	not resolve without more invasive procedures/surgery
+R6	NegSignal-NegScope Arg1:T11 Arg2:T12	
+T13	SpecSignal 365 373	suggests
+T14	SpecScope 365 431	suggests will not resolve without more invasive procedures/surgery
+R7	SpecSignal-SpecScope Arg1:T13 Arg2:T14	
+T3	NegSignal 148 151	not
+T4	NegScope 148 162	not fully gone
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,15 @@
+T1	NegSignal 44 46	no
+T2	NegScope 44 62	no abnormal sounds
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 226 228	or
+T4	SpecScope 207 231	Micro-chipped: yes or no
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 249 251	or
+T6	SpecScope 233 254	Food Given: yes or no
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 294 296	or
+T8	SpecScope 256 299	4 weeks free insurance activated: yes or no
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	SpecSignal 328 330	or
+T10	SpecScope 301 333	Voucher Booklet given: yes or no
+R5	SpecSignal-SpecScope Arg1:T9 Arg2:T10	

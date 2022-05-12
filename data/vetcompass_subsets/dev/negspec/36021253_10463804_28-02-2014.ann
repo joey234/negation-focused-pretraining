@@ -1,0 +1,6 @@
+T1	NegSignal 315 318	NAD
+T2	NegScope 305 318	Otherwise NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 152 156	poss
+T4	SpecScope 152 168	poss extractions
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

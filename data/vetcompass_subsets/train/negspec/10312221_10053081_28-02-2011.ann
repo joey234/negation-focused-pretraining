@@ -1,0 +1,3 @@
+T1	SpecSignal 71 78	Suspect
+T2	SpecScope 71 101	Suspect damage to cruciate lgs
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

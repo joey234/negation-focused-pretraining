@@ -1,0 +1,15 @@
+T1	NegSignal 183 189	cannot
+T2	NegScope 183 227	cannot find any evidence of abcess remaining
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 229 231	no
+T4	NegScope 229 236	no scab
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 238 240	No
+T6	NegScope 238 264	No pain on palpation of RH
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 301 311	looks like
+T8	SpecScope 301 325	looks like ligament issu
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
+T9	NegSignal 379 381	no
+T10	NegScope 379 401	no need for further Ab
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	

@@ -1,0 +1,12 @@
+T1	NegSignal 115 118	NAD
+T2	NegScope 98 118	On exam left ear NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 180 184	poss
+T4	SpecScope 180 204	poss bacterial infection
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	NegSignal 268 271	NAD
+T6	NegScope 268 289	NAD otherwise on exam
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 210 213	can
+T8	SpecScope 210 234	can be allergy in origin
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

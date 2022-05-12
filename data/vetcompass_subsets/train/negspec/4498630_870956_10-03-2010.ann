@@ -1,0 +1,3 @@
+T1	NegSignal 22 25	not
+T2	NegScope 22 32	not eating
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

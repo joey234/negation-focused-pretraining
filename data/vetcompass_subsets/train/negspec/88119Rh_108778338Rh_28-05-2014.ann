@@ -1,0 +1,3 @@
+T1	NegSignal 54 56	No
+T2	NegScope 54 77	No treatment on CC plan
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

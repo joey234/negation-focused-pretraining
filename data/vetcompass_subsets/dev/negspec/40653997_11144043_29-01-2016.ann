@@ -1,0 +1,6 @@
+T1	NegSignal 63 66	nad
+T2	NegScope 59 66	abd nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 93 94	?
+T4	SpecScope 68 94	O feeding mostly raw diet?
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

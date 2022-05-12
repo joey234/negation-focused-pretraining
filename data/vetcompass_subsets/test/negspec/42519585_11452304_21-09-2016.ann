@@ -1,0 +1,6 @@
+T1	NegSignal 111 113	no
+T2	NegScope 111 128	no puncture noted
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 221 231	Looks like
+T4	SpecScope 221 263	Looks like haematoma / cba under lower lid
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,12 @@
+T1	SpecSignal 327 330	may
+T2	SpecScope 327 347	may need further a/b
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 349 352	May
+T4	SpecScope 349 376	May need re-op if continues
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	NegSignal 506 508	no
+T6	NegScope 506 513	no temp
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 730 733	not
+T8	NegScope 730 741	not hostile
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

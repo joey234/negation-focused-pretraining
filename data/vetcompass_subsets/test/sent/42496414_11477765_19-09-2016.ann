@@ -1,0 +1,14 @@
+T1	Sentence 0 19	Reason: Sore On Leg
+T2	Sentence 21 110	Appointment Notes: on long term pain meds due to hip problems, now has a sore on her leg.
+T3	Sentence 184 204	History-Environment:
+T4	Sentence 209 234	History-Parasite Control:
+T5	Sentence 239 263	History-Wellness Status:
+T6	Sentence 268 319	1.List vaccinations/treatments outside this clinic?
+T7	Sentence 323 366	History-Prior Illnesses, Trauma, Surgeries:
+T8	Sentence 371 428	History: Bite wound medial hock RH clip and clean ch 1wk.
+T9	Sentence 429 501	Also had previous Tx for spinal arthritis dispense further at same dose.
+T10	Sentence 505 517	Examination:
+T11	Sentence 522 533	Assessment:
+T12	Sentence 538 554	Plan-Diagnostic:
+T13	Sentence 559 576	Plan-Therapeutic:
+T14	Sentence 111 182	Offered appointment for Sunday but this was the only time she could do.

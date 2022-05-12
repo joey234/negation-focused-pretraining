@@ -1,0 +1,3 @@
+T1	NegSignal 922 925	NAD
+T2	NegScope 922 942	NAD on clinical exam
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

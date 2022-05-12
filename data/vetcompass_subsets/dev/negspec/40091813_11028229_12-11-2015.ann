@@ -1,0 +1,6 @@
+T1	NegSignal 89 91	no
+T2	NegScope 89 118	no health concerns at present
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 303 305	no
+T4	NegScope 303 322	no worries with Obi
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	SpecScope 687 713	may be inflammatory tissue
+T2	SpecSignal 687 690	may
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	
+T3	NegScope 812 824;828 826;830 853	no chang ein  ** - size or appearance
+T4	NegSignal 812 814	no
+R2	NegSignal-NegScope Arg1:T4 Arg2:T4	

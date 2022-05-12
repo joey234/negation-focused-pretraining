@@ -1,0 +1,6 @@
+T1	NegSignal 157 160	Not
+T2	NegScope 157 186	Not able to measure her today
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 292 294	no
+T4	NegScope 292 301	no treats
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

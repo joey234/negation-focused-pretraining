@@ -1,0 +1,3 @@
+T1	NegScope 211 222	No FB found
+T2	NegSignal 211 213	No
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

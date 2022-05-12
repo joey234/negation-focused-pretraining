@@ -1,0 +1,3 @@
+T1	NegSignal 73 76	nad
+T2	NegScope 63 76	abdo palp nad
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

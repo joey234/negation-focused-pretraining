@@ -1,0 +1,3 @@
+T1	NegSignal 438 443	caont
+T2	NegScope 438 465	caont, advise larger bottle
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

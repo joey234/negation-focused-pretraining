@@ -1,0 +1,6 @@
+T1	SpecSignal 75 83	probable
+T2	SpecScope 75 89	probable cause
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 94 97	NAD
+T4	NegScope 94 97	NAD
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

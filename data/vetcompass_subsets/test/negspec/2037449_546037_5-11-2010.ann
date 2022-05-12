@@ -1,0 +1,5 @@
+T1	SpecSignal 8 16	Possible
+T2	SpecScope 8 26	Possible Restart ?
+T3	SpecSignal 25 26	?
+R1	SpecSignal-SpecScope Arg1:T3 Arg2:T2	
+R2	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

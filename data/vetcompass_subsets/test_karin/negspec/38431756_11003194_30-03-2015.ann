@@ -1,0 +1,3 @@
+T1	NegScope 586 603	did not take long
+T2	NegSignal 590 593	not
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

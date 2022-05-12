@@ -1,0 +1,6 @@
+T1	NegSignal 76 79	not
+T2	NegScope 76 84	not 100%
+T3	NegSignal 116 119	not
+T4	NegScope 116 147	not holding right fore properly
+R1	NegSignal-NegScope Arg1:T3 Arg2:T4	
+R2	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	SpecSignal 94 97	may
+T2	SpecScope 123 139;94 119	sg - months time may need to re check in a
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

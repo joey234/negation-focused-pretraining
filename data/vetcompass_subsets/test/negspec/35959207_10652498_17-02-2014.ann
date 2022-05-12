@@ -1,0 +1,6 @@
+T1	NegSignal 70 73	NAD
+T2	NegScope 70 73	NAD
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 821 824	not
+T4	NegScope 821 834	not available
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

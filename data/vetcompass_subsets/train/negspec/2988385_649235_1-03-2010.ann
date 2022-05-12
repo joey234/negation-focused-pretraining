@@ -1,0 +1,3 @@
+T1	NegSignal 141 144	not
+T2	NegScope 141 202	not want to distress her by bringing her to the surgery again
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

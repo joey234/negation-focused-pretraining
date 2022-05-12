@@ -1,0 +1,5 @@
+T1	SpecSignal 72 77	Could
+T2	SpecScope 72 106	Could be 7.5 or 8.5 weeks pregnant
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 85 87	or
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T2	

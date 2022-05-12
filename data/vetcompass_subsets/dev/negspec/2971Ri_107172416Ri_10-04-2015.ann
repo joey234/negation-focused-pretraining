@@ -1,0 +1,35 @@
+T1	SpecSignal 281 296	Cannot rule out
+T2	SpecScope 281 318	Cannot rule out bony/hip joint injury
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T5	NegSignal 372 374	No
+T6	NegScope 372 391	No obvious lameness
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 561 563	No
+T8	NegScope 561 582	No yelping when moves
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 584 586	No
+T10	NegScope 584 603	No obvious lameness
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	
+T11	SpecSignal 705 709	poss
+T12	SpecScope 705 734	poss similar episodes in past
+R6	SpecSignal-SpecScope Arg1:T11 Arg2:T12	
+T13	NegSignal 795 797	no
+T14	NegScope 795 804	no issues
+R7	NegSignal-NegScope Arg1:T13 Arg2:T14	
+T15	SpecSignal 808 812	poss
+T16	SpecScope 808 864	poss was underlying GI issue also exacerbated by NSAID??
+T17	SpecSignal 862 864	??
+R8	SpecSignal-SpecScope Arg1:T15 Arg2:T16	
+R9	SpecSignal-SpecScope Arg1:T17 Arg2:T16	
+T18	SpecSignal 1528 1532	Poss
+T19	SpecScope 1528 1560	Poss sl flattening femoral heads
+R10	SpecSignal-SpecScope Arg1:T18 Arg2:T19	
+T20	NegSignal 1580 1583	NAD
+T21	NegScope 1580 1591	NAD re hips
+R11	NegSignal-NegScope Arg1:T20 Arg2:T21	
+T22	SpecSignal 767 768	?
+T23	SpecScope 767 804	? used Metacam in past with no issues
+R12	SpecSignal-SpecScope Arg1:T22 Arg2:T23	
+T24	SpecSignal 1368 1375	Suspect
+T25	SpecScope 1368 1390	Suspect soft tt injury
+R13	SpecSignal-SpecScope Arg1:T24 Arg2:T25	

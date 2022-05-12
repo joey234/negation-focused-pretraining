@@ -1,0 +1,9 @@
+T1	NegSignal 132 135	not
+T2	NegScope 132 151	not straining today
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 167 172	seems
+T4	SpecScope 167 202	seems bit more lethargic then usual
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 15 16	?
+T6	SpecScope 15 30	?Urate crystals
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

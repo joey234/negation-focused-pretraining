@@ -1,0 +1,12 @@
+T1	NegSignal 228 230	no
+T2	NegScope 228 242	no blood in it
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 264 266	No
+T4	NegScope 264 269	No V+
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 307 310	Not
+T6	NegScope 307 352	Not scavenger or drinks from stagnant puddles
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 365 368	nad
+T8	NegScope 365 368	nad
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

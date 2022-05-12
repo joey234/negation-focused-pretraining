@@ -1,0 +1,6 @@
+T1	NegScope 84 93	not happy
+T2	NegSignal 84 87	not
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 24 46	cannot do prescription
+T4	NegSignal 24 30	cannot
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

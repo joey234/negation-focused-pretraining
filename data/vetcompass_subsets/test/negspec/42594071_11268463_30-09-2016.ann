@@ -1,0 +1,3 @@
+T1	NegSignal 72 75	Not
+T2	NegScope 72 84	Not urinated
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

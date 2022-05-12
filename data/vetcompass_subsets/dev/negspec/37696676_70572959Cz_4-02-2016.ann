@@ -1,0 +1,6 @@
+T1	NegSignal 162 165	not
+T2	NegScope 162 198	not with purulent material this time
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	SpecSignal 319 322	may
+T4	SpecScope 319 359	may need apoquel etc for skin irritation
+R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

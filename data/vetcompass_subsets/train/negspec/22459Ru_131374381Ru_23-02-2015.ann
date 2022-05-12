@@ -1,0 +1,12 @@
+T1	NegSignal 119 122	not
+T2	NegScope 119 139	not get any advocate
+T3	NegSignal 155 158	not
+T4	NegScope 155 196	not recorded cats' weight on the computer
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 532 534	no
+T6	NegScope 532 542	no solvent
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 1014 1016	no
+T8	NegScope 1014 1036	no abnormalities noted
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

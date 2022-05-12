@@ -1,0 +1,9 @@
+T1	NegScope 418 434	No pain response
+T2	NegSignal 418 420	No
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 446 467	O not evern 100% sure
+T4	NegSignal 448 451	not
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
+T5	SpecScope 446 483	O not evern 100% sure it is that foot
+T6	SpecSignal 458 467	100% sure
+R3	SpecSignal-SpecScope Arg1:T6 Arg2:T5	

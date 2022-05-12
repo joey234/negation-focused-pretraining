@@ -1,0 +1,3 @@
+T1	NegSignal 166 169	not
+T2	NegScope 166 200	not wanting to spay for  few years
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

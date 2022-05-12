@@ -1,0 +1,12 @@
+T1	NegSignal 582 585	not
+T2	NegScope 582 597	not eat this am
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 631 633	no
+T4	NegScope 631 642	no diarrhea
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 668 670	no
+T6	NegScope 668 698	no hx of dietary indiscrection
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
+T7	NegSignal 777 779	no
+T8	NegScope 777 791	no palp masses
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	

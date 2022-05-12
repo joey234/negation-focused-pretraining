@@ -1,0 +1,16 @@
+T1	Sentence 0 11	Reason: Tgh
+T2	Sentence 13 34	Appointment Notes: TC
+T3	Sentence 36 82	Examination: Pre-op physical examination = NAD
+T4	Sentence 86 97	Laboratory:
+T5	Sentence 102 123	Medications: Premed =
+T6	Sentence 150 174	PreEmptive pain relief =
+T7	Sentence 201 218	Induction agent =
+T8	Sentence 245 279	Maintenance = Isoflurane in Oxygen
+T9	Sentence 283 370	Surgery: Routine Ovariohysterectomy performed through incision in the : flank / midline
+T10	Sentence 388 408	Ligatures (Ovaries):
+T11	Sentence 426 444	Ligature (Cervix):
+T12	Sentence 462 477	Muscle sutures:
+T13	Sentence 495 516	Subcuticular sutures:
+T14	Sentence 534 547	Skin sutures:
+T15	Sentence 551 581	Hospital: Uneventful recovery.
+T16	Sentence 585 626	Plan: Reexamine with nurse in       days.

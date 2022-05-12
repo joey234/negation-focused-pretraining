@@ -1,0 +1,6 @@
+T1	SpecSignal 70 76	doubts
+T2	SpecScope 70 136	doubts about the origin of respiratory distress during anaesthetic
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 138 140	no
+T4	NegScope 138 147	no answer
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

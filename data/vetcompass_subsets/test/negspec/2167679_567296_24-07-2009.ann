@@ -1,0 +1,3 @@
+T1	NegSignal 206 208	No
+T2	NegScope 206 232	No FB found on examination
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

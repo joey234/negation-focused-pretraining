@@ -1,0 +1,9 @@
+T1	NegSignal 74 76	no
+T2	NegScope 74 85	no concerns
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 103 105	no
+T4	NegScope 103 127	no vomiting or diarrhoea
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	NegSignal 146 149	NAD
+T6	NegScope 146 149	NAD
+R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

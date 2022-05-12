@@ -1,0 +1,17 @@
+T1	NegSignal 183 185	No
+T2	NegScope 183 200	No change in diet
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 232 235	not
+T4	NegScope 232 239	not red
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 299 300	?
+T6	SpecSignal 287 291	Poss
+T7	SpecScope 287 300	Poss allergy?
+R3	SpecSignal-SpecScope Arg1:T6 Arg2:T7	
+R4	SpecSignal-SpecScope Arg1:T5 Arg2:T7	
+T8	SpecSignal 306 307	?
+T9	SpecScope 301 307	Mites?
+R5	SpecSignal-SpecScope Arg1:T8 Arg2:T9	
+T10	SpecSignal 316 317	?
+T11	SpecScope 308 317	Pyoderma?
+R6	SpecSignal-SpecScope Arg1:T10 Arg2:T11	

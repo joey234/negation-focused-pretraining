@@ -1,0 +1,3 @@
+T1	SpecSignal 295 301	thinks
+T2	SpecScope 295 322	thinks will clear up on own
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

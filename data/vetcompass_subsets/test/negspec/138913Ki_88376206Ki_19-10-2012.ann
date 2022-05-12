@@ -1,0 +1,6 @@
+T1	NegSignal 33 35	no
+T2	NegScope 33 42	no answer
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 44 51	couldnt
+T4	NegScope 44 123	couldnt leave a message to say oscars piriton repeat is waiting to be collected
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,3 @@
+T1	SpecSignal 50 51	?
+T2	SpecScope 39 51	pink on abd?
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

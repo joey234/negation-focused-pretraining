@@ -1,0 +1,3 @@
+T1	SpecSignal 132 139	Suspect
+T2	SpecScope 132 155	Suspect osteo arthritis
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

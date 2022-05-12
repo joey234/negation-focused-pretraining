@@ -1,0 +1,3 @@
+T1	SpecScope 62 72	Suspect DM
+T2	SpecSignal 62 69	Suspect
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

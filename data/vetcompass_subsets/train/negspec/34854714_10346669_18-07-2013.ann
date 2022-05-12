@@ -1,0 +1,3 @@
+T1	SpecSignal 48 57	suspected
+T2	SpecScope 34 57	t4 profile as suspected
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,0 +1,9 @@
+T1	NegScope 110 129	No obvious injuries
+T2	NegSignal 110 112	No
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+T3	NegScope 288 341;354 388	LF cranial carpus small full thickness puncture wound not obviously any deeper than skin
+T4	NegSignal 354 357	not
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
+T5	NegScope 426 437	Non painful
+T6	NegSignal 426 429	Non
+R3	NegSignal-NegScope Arg1:T6 Arg2:T5	

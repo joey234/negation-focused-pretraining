@@ -1,0 +1,6 @@
+T1	SpecSignal 744 749	Might
+T2	SpecScope 744 773	Might have grown a little bit
+R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
+T3	NegSignal 817 819	no
+T4	NegScope 817 825	no v/d/c
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,0 +1,16 @@
+T1	Sentence 0 7	Reason:
+T2	Sentence 10 33	Admit to remove epulis.
+T3	Sentence 36 48	Anaesthesia:
+T4	Sentence 51 84	Pre-med vet=2.47ml dom=0.27ml IM.
+T5	Sentence 85 108	Induced 20mls propofol.
+T6	Sentence 109 124	Maintained iso.
+T7	Sentence 126 176	Placed on IV fluids during procedure at 10ml/kg/hr
+T8	Sentence 178 186	Surgery:
+T9	Sentence 189 237	Removed epulis from both L and R sides of mouth.
+T10	Sentence 238 281	Electrocautery used to control haemorrhage.
+T11	Sentence 283 288	Plan:
+T12	Sentence 291 321	Applied dentisept to surfaces.
+T13	Sentence 322 340	Home with metacam.
+T14	Sentence 341 350	Check 5d.
+T15	Sentence 352 362	Dentistry:
+T16	Sentence 364 420	Routine S&P performed foc at the same time as procedure.

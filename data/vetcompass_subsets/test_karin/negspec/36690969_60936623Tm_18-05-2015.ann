@@ -1,0 +1,8 @@
+T1	SpecScope 214 240	real concerns of breakdown
+T2	SpecSignal 219 227	concerns
+R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	
+T3	SpecScope 327 370	suspect possible breakdown of part of wound
+T4	SpecSignal 335 343	possible
+T5	SpecSignal 327 334	suspect
+R2	SpecSignal-SpecScope Arg1:T4 Arg2:T3	
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T3	

@@ -1,0 +1,6 @@
+T1	NegSignal 56 58	No
+T2	NegScope 56 74	No probs to report
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 102 105	Nad
+T4	NegScope 102 114	Nad clinical
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

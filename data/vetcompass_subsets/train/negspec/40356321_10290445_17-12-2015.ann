@@ -1,0 +1,15 @@
+T1	NegSignal 177 183	unable
+T2	NegScope 177 207	unable to walk around properly
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 352 354	no
+T4	NegScope 352 361	no menace
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 387 397	looks like
+T6	SpecScope 387 430	looks like a mss at the end of the mandible
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	NegSignal 722 728	Unable
+T8	NegScope 722 766	Unable to stand on table when tried to stand
+R4	NegSignal-NegScope Arg1:T7 Arg2:T8	
+T9	NegSignal 886 888	no
+T10	NegScope 886 928	no return of ashes with communal cremation
+R5	NegSignal-NegScope Arg1:T9 Arg2:T10	

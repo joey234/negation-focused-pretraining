@@ -1,0 +1,6 @@
+T1	NegScope 673 685	no concenrns
+T2	NegSignal 673 675	no
+T3	NegScope 899 911	no concenrns
+T4	NegSignal 899 901	no
+R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
+R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

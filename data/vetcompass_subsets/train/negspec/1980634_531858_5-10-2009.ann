@@ -1,0 +1,12 @@
+T1	NegSignal 132 140	wuithout
+T2	NegScope 132 156	wuithout nasla discharge
+R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
+T3	NegSignal 177 180	nad
+T4	NegScope 177 192	nad on URT exam
+R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
+T5	SpecSignal 201 209	sus[pect
+T6	SpecScope 201 220	sus[pect mil;d URTI
+R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
+T7	SpecSignal 225 229	poss
+T8	SpecScope 225 253	poss' satrt of addisons here
+R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	
