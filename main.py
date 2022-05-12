@@ -48,7 +48,7 @@ def main():
             
     # print(vetcompass_dev_data.cue_data.)
 
-    return 0
+    # return 0
     # print('HERE')
     # print(vetcompass_train_data)
     # print(vetcompass_dev_data.cue_data.sentences)
