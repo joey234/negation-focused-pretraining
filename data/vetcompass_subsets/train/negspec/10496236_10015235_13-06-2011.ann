@@ -1,3 +1,0 @@
-T1	SpecSignal 68 71	may
-T2	SpecScope 68 82	may break down
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

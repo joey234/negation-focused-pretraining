@@ -1,6 +1,0 @@
-T1	NegSignal 118 121	not
-T2	NegScope 118 127	not fresh
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 135 138	not
-T4	NegScope 135 146	not sutured
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

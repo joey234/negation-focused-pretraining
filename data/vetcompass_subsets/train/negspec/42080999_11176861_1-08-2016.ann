@@ -1,9 +1,0 @@
-T1	NegSignal 54 56	No
-T2	NegScope 54 91	No further discharge or blepharospasm
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 219 223	poss
-T4	SpecScope 219 240	poss reducing in size
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 313 316	may
-T6	SpecScope 313 342	may take weeks for scar to go
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

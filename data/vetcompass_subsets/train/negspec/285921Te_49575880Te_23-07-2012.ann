@@ -1,9 +1,0 @@
-T1	NegSignal 325 328	nad
-T2	NegScope 325 334	nad on CE
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 588 590	No
-T4	NegScope 588 599	No CONS fee
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 457 458	?
-T6	SpecScope 454 458	UTI?
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

@@ -1,3 +1,0 @@
-T1	NegSignal 163 166	nad
-T2	NegScope 163 172	nad today
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

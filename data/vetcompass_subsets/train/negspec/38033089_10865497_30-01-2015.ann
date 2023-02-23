@@ -1,6 +1,0 @@
-T1	NegSignal 43 46	NAD
-T2	NegScope 43 46	NAD
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 775 777	no
-T4	NegScope 775 794	no issues with Elsa
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

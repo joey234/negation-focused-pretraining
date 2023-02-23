@@ -1,3 +1,0 @@
-T1	SpecSignal 779 786	Unclear
-T2	SpecScope 779 801	Unclear if all removed
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

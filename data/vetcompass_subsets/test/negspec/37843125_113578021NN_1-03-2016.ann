@@ -1,3 +1,0 @@
-T1	NegSignal 507 509	no
-T2	NegScope 507 513	no v/d
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

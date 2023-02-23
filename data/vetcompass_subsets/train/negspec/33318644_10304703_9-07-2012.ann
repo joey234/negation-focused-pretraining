@@ -1,6 +1,0 @@
-T1	NegSignal 9 11	no
-T2	NegScope 9 21	no vom/diarr
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 65 68	nad
-T4	NegScope 49 68	chest and abdom nad
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

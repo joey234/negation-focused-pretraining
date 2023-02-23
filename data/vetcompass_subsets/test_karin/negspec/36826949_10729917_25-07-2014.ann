@@ -1,3 +1,0 @@
-T1	NegScope 142 151	no issues
-T2	NegSignal 142 144	no
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

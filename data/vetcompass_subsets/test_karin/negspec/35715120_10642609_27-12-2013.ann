@@ -1,3 +1,0 @@
-T1	NegScope 298 314	Examination: nad
-T2	NegSignal 311 314	nad
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

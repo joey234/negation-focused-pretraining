@@ -1,3 +1,0 @@
-T1	NegSignal 203 206	NAD
-T2	NegScope 203 222	NAD at general eaxm
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

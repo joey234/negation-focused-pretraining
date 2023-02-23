@@ -1,34 +1,0 @@
-08:53:52 ************ - nurse Admit patient
-
-08:54:09 Nurse - Document Created - Dog-neuter.doc
-
-11:47:54 ************* - Document Created - Post Op Speke.doc
-
-12:44:37 ************************* - SURGICAL REPORT
-
-castration without incidences
-
-12:44:54 ************************* - Castration Dogs Trust
-
-12:45:06 ************************* - Theatre fee
-
-12:45:06 ************************* - Calmivet inj (5mg/ml) per ml
-
-12:45:10 ************************* - Buster collar 15cm clic
-
-12:45:11 C************************ - Propoflo Plus per ml
-
-12:45:16 C************************ - Fluids admin during surgery
-
-12:45:17 C************************ - Methadone (10mg/ml) 1ml ampoule
-
-12:45:20 ************************* - Onsior (20mg) per ml
-
-13:08:28 ************************* - Rimadyl palatable 20mg per tablet (30) (Give 1.5 tablet(s) 1 times daily for 3 days To be given with food 
-Stop treatment immediately if vomiting or diarrhoea occurs &amp; contact your vet)
-
-14:38:50 ************ - File attached: General anaesthetic records - Castrate
-
-16:33:43 ************ - nurse Discharge patient
-
-

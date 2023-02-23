@@ -1,9 +1,0 @@
-T1	NegSignal 188 191	not
-T2	NegScope 188 229	not want pain relief to take home or food
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 343 349	doesnt
-T4	NegScope 343 360	doesnt want these
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 646 648	no
-T6	NegScope 646 661	no other extras
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

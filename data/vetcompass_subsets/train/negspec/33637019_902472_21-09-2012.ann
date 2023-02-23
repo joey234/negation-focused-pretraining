@@ -1,8 +1,0 @@
-T4	NegSignal 205 207	No
-T5	NegScope 205 229	No fixed appt to be make
-R3	NegSignal-NegScope Arg1:T4 Arg2:T5	
-T1	SpecSignal 127 137	looks like
-T2	SpecSignal 153 154	?
-T3	SpecScope 127 154	looks like a pressure sore?
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T3	
-R2	SpecSignal-SpecScope Arg1:T2 Arg2:T3	

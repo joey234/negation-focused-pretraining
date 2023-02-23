@@ -1,3 +1,0 @@
-T1	NegSignal 0 3	NAD
-T2	NegScope 0 23	NAD at home and on exam
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

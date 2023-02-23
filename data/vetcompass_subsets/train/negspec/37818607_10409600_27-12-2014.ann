@@ -1,3 +1,0 @@
-T1	NegSignal 64 66	no
-T2	NegScope 64 97	no pain on manipulation/palpation
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

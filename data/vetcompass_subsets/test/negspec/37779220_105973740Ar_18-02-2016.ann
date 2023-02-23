@@ -1,6 +1,0 @@
-T1	NegSignal 16 19	not
-T2	NegScope 16 38	not as pruritic as was
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 40 43	Not
-T4	NegScope 40 56	Not erythematous
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

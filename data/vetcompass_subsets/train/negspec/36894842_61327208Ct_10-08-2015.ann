@@ -1,3 +1,0 @@
-T1	NegSignal 30 33	Not
-T2	NegScope 30 50	Not attached to skin
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

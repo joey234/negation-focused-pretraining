@@ -1,6 +1,0 @@
-T1	NegSignal 33 35	no
-T2	NegScope 33 71	no real change in gaby with medication
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 242 244	no
-T4	NegScope 242 266	no other issues reported
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

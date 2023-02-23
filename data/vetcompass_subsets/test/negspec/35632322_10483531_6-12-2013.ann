@@ -1,3 +1,0 @@
-T1	NegSignal 325 332	wouldnt
-T2	NegScope 325 353	wouldnt stop ticks attaching
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,6 +1,0 @@
-T1	NegSignal 147 149	No
-T2	NegScope 147 163;167 179	No other abnorms old - found.
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 193 194	?
-T4	SpecScope 180 194	Early cat flu?
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

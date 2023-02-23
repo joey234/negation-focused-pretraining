@@ -1,9 +1,0 @@
-T1	NegScope 60 69	No issues
-T2	NegSignal 60 62	No
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
-T3	NegScope 332 344	Not neutered
-T4	NegSignal 332 335	Not
-R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
-T5	SpecScope 226 248	Intermittent pred use?
-T6	SpecSignal 247 248	?
-R3	SpecSignal-SpecScope Arg1:T6 Arg2:T5	

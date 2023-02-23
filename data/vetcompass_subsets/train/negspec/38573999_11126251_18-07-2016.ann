@@ -1,9 +1,0 @@
-T1	NegSignal 73 75	no
-T2	NegScope 73 97	no change in environment
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 135 137	No
-T4	NegScope 135 159	No dietary change either
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 336 340	Susp
-T6	SpecScope 336 344	Susp FAD
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

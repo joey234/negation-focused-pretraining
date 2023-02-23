@@ -1,3 +1,0 @@
-T1	NegSignal 31 33	no
-T2	NegScope 31 50	no longer lactating
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

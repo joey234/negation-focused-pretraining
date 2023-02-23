@@ -1,6 +1,0 @@
-T1	NegSignal 57 60	nad
-T2	NegScope 57 60	nad
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 114 117	nad
-T4	NegScope 114 117	nad
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

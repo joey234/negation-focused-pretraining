@@ -1,3 +1,0 @@
-T1	NegSignal 352 355	nad
-T2	NegScope 352 363	nad on exam
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

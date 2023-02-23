@@ -1,3 +1,0 @@
-T1	NegSignal 129 131	no
-T2	NegScope 129 139	no solvent
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

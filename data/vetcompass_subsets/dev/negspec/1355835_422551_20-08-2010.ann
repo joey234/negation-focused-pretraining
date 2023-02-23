@@ -1,9 +1,0 @@
-T1	NegSignal 191 199	negative
-T2	NegScope 175 199	Parvo snap test negative
-T3	SpecSignal 108 116	Not sure
-T4	SpecScope 108 138	Not sure if Zena is Vaccinated
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 143 151	not sure
-T6	SpecScope 143 170	not sure how other dog died
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

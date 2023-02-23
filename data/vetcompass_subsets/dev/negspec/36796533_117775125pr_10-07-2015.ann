@@ -1,6 +1,0 @@
-T1	NegSignal 47 49	No
-T2	NegScope 47 66	No current concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 68 70	no
-T4	NegScope 68 78	no v/d/c/s
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

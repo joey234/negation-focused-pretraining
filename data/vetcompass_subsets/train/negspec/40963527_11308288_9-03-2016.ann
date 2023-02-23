@@ -1,6 +1,0 @@
-T1	NegSignal 440 442	No
-T2	NegScope 440 478	No assymetry of face, lumps bumps etc.
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 560 566	Likely
-T4	SpecScope 560 581	Likely resp infection
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

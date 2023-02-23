@@ -1,3 +1,0 @@
-T1	NegSignal 9 12	not
-T2	NegScope 9 28	not limping anymore
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

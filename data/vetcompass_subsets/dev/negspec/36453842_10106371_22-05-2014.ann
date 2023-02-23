@@ -1,3 +1,0 @@
-T1	SpecSignal 85 95	likely not
-T4	SpecScope 85 116	likely not to be renal problems
-R2	SpecSignal-SpecScope Arg1:T1 Arg2:T4	

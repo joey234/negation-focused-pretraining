@@ -1,9 +1,0 @@
-T1	SpecSignal 279 285	likely
-T2	SpecScope 279 302	likely abscess capsules
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 351 356	Can't
-T4	NegScope 351 381	Can't express much from wounds
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 323 330	Doesn't
-T6	NegScope 323 349	Doesn't feel full of fluid
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

@@ -1,6 +1,0 @@
-T1	NegSignal 920 922	no
-T2	NegScope 920 937	no other concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 939 942	nad
-T4	NegScope 939 950	nad on exam
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

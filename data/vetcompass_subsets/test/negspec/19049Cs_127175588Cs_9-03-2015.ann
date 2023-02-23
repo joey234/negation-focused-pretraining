@@ -1,6 +1,0 @@
-T1	NegSignal 207 209	no
-T2	NegScope 207 216	no wounds
-T3	NegSignal 218 221	not
-T4	NegScope 218 239	not sore to the touch
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

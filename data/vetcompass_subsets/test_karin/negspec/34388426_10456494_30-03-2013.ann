@@ -1,3 +1,0 @@
-T1	NegScope 404 421	not uncomfortable
-T2	NegSignal 404 407	not
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

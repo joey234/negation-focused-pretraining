@@ -1,6 +1,0 @@
-T1	NegSignal 181 183	No
-T2	NegScope 181 195	No money today
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 232 239	Couldnt
-T4	NegScope 232 253	Couldnt hear a murmur
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

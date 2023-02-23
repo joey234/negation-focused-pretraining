@@ -1,6 +1,0 @@
-T1	NegSignal 63 66	not
-T2	NegScope 63 83	not where she put it
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 389 391	NO
-T4	NegScope 389 398	NO CHARGE
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

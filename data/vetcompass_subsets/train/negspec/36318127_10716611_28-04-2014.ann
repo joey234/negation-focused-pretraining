@@ -1,9 +1,0 @@
-T1	NegScope 43 46	NAD
-T3	NegSignal 527 529	no
-T4	NegScope 527 545	no longer relevant
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 682 684	no
-T6	NegScope 682 700	no longer relevant
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
-T2	NegSignal 43 46	NAD
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

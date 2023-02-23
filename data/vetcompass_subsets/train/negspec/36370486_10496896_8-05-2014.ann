@@ -1,3 +1,0 @@
-T1	SpecSignal 105 111	should
-T2	SpecScope 105 118	should settle
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

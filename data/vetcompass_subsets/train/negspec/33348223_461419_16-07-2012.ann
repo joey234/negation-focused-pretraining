@@ -1,3 +1,0 @@
-T1	NegSignal 221 224	not
-T2	NegScope 221 237	not shaking head
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

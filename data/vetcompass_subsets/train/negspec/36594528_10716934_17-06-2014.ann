@@ -1,9 +1,0 @@
-T1	SpecSignal 113 123	Feels like
-T2	SpecScope 113 148	Feels like where knot is under skin
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 150 153	Not
-T4	NegScope 150 167	Not affecting dog
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 173 176	not
-T6	NegScope 173 196	not bothering it at all
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

@@ -1,3 +1,0 @@
-T1	NegSignal 26 28	no
-T2	NegScope 26 37	no concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

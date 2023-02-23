@@ -1,8 +1,0 @@
-Reason: Unwell
-Appointment Notes: Overdue reminders
-
-Plan:
-- IVFT at 30mls per hr initially
-- 12 + H + electrolytes
-- Furosemide 0.12mls IV in 1hr.
-- Further action depending on response to these and results of bloods combined with wishes of O. 

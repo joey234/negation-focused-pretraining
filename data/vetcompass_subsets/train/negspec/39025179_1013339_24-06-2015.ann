@@ -1,3 +1,0 @@
-T1	NegSignal 244 247	not
-T2	NegScope 244 259	not ulcerationg
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

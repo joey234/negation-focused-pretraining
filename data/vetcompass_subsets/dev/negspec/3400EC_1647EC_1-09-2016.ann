@@ -1,3 +1,0 @@
-T1	NegSignal 74 78	wont
-T2	NegScope 74 83	wont heal
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

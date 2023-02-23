@@ -1,6 +1,0 @@
-T1	SpecSignal 83 89	likely
-T2	SpecScope 83 96	likely haemic
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 147 150	nad
-T4	NegScope 138 150	All else nad
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

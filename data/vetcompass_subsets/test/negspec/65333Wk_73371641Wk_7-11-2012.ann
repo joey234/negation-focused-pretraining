@@ -1,3 +1,0 @@
-T1	NegSignal 392 398	Unable
-T2	NegScope 392 425	Unable to get muzzle on him today
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

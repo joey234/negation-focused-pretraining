@@ -1,9 +1,0 @@
-T1	NegSignal 52 54	no
-T2	NegScope 52 63	no coughing
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 67 70	not
-T4	NegScope 67 94	not concerned at the moment
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 114 116	no
-T6	NegScope 114 147	no redness, swelling or discharge
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

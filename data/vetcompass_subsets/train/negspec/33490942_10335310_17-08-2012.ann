@@ -1,3 +1,0 @@
-T1	NegSignal 68 70	no
-T2	NegScope 68 89	no reported ptroblems
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

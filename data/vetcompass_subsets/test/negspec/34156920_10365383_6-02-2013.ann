@@ -1,6 +1,0 @@
-T1	NegSignal 44 46	no
-T2	NegScope 44 55	no swelling
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 60 62	no
-T4	NegScope 60 82	no signs of discomfort
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

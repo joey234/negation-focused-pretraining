@@ -1,3 +1,0 @@
-T1	SpecScope 197 207	seems fine
-T2	SpecSignal 197 202	seems
-R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

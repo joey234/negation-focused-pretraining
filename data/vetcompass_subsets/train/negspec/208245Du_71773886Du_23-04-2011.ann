@@ -1,6 +1,0 @@
-T1	NegSignal 332 337	wasnt
-T2	NegScope 332 375	wasnt warned about vaccination side effects
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 115 117	no
-T4	NegScope 115 125	no solvent
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

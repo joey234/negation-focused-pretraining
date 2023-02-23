@@ -1,6 +1,0 @@
-T1	SpecSignal 412 420	suspects
-T2	SpecScope 412 436	suspects squirrel injury
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 605 608	neg
-T4	NegScope 600 618	fluo neg on cornea
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,3 +1,0 @@
-T1	NegSignal 74 76	no
-T2	NegScope 74 90	no anomaly noted
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

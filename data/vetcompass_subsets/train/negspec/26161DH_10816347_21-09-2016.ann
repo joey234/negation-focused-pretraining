@@ -1,9 +1,0 @@
-T1	NegSignal 116 119	not
-T2	NegScope 116 152	not irritated from ags/bottom at all
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 190 196	cannot
-T4	NegScope 190 222	cannot express anything from ags
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 276 279	may
-T6	SpecScope 276 336	may need to incr pred to 1 tab eod (is currently on 1/2 eod)
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

@@ -1,6 +1,0 @@
-T1	NegSignal 134 136	no
-T2	NegScope 134 143	no noises
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 106 110	susp
-T4	SpecScope 106 122	susp tracheiitis
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

@@ -1,3 +1,0 @@
-T1	NegSignal 69 72	not
-T2	NegScope 69 86	not using the leg
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

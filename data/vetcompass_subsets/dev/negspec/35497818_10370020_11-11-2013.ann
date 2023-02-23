@@ -1,6 +1,0 @@
-T1	NegSignal 76 78	No
-T2	NegScope 76 87	No concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 108 111	NAD
-T4	NegScope 105 111	PE NAD
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

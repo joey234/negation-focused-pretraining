@@ -1,3 +1,0 @@
-T1	NegSignal 174 176	no
-T2	NegScope 174 186	no discharge
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

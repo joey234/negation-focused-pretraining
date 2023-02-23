@@ -1,3 +1,0 @@
-T1	NegSignal 200 202	no
-T2	NegScope 200 220	no sign of discharge
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,3 +1,0 @@
-T1	SpecSignal 55 62	thought
-T2	SpecScope 55 80	thought was rabbit faeces
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

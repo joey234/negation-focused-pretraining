@@ -1,9 +1,0 @@
-T1	NegSignal 91 93	No
-T2	NegScope 91 107	No health issues
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 109 112	Not
-T4	NegScope 109 128	Not wormed recently
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 167 169	No
-T6	NegScope 167 180	No flea dirts
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

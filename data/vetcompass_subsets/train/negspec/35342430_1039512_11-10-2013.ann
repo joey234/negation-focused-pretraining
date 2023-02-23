@@ -1,3 +1,0 @@
-T1	NegSignal 41 44	not
-T2	NegScope 41 58	not lost anything
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

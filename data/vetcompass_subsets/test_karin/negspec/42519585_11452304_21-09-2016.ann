@@ -1,9 +1,0 @@
-T1	NegScope 114 131	no puncture noted
-T2	NegSignal 114 116	no
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
-T3	NegScope 160 176	Cannot take temp
-T4	NegSignal 160 166	Cannot
-R2	NegSignal-NegScope Arg1:T4 Arg2:T3	
-T5	SpecScope 226 246	Looks like haematoma
-T6	SpecSignal 226 236	Looks like
-R3	SpecSignal-SpecScope Arg1:T6 Arg2:T5	

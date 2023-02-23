@@ -1,6 +1,0 @@
-T1	NegSignal 86 88	No
-T2	NegScope 86 93	No show
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 94 96	no
-T4	NegScope 94 111	no call to cancel
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

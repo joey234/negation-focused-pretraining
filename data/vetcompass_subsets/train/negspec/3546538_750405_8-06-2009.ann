@@ -1,6 +1,0 @@
-T1	NegSignal 56 59	NAD
-T2	NegScope 56 69	NAD clin exam
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 71 73	no
-T4	NegScope 71 84	no o concerns
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

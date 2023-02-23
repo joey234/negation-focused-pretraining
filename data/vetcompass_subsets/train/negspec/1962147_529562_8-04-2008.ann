@@ -1,6 +1,0 @@
-T1	NegSignal 41 43	no
-T2	NegScope 41 52	no flea dir
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 75 78	not
-T4	NegScope 75 85	not wormed
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

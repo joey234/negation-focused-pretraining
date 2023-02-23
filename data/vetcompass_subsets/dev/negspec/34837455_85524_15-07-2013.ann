@@ -1,6 +1,0 @@
-T1	NegSignal 126 129	nad
-T2	NegScope 126 137	nad on abdo
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 139 141	No
-T4	NegScope 139 153	No other probs
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

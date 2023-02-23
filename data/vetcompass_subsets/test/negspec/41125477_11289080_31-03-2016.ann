@@ -1,3 +1,0 @@
-T1	NegSignal 413 415	No
-T2	NegScope 413 436	No pain response at all
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

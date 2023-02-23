@@ -1,6 +1,0 @@
-T1	NegSignal 368 371	not
-T2	NegScope 368 395	not eaten well in &gt;5days
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 397 400	not
-T4	NegScope 397 419	not eaten at all in 4d
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,6 +1,0 @@
-T1	SpecSignal 128 142	No evidence of
-T2	SpecScope 128 153	No evidence of grass seed
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 25 26	?
-T4	SpecScope 8 26	Grass Seed In Paw?
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

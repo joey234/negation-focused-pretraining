@@ -1,6 +1,0 @@
-T1	SpecSignal 65 70	Seems
-T2	SpecScope 65 100	Seems a lot more settled in himself
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 246 248	no
-T4	NegScope 235 260	right hind no improvement
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

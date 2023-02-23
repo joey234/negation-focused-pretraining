@@ -1,6 +1,0 @@
-T1	NegSignal 44 46	no
-T2	NegScope 44 55	no concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 217 224	couldnt
-T4	NegScope 217 238	couldnt examine mouth
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

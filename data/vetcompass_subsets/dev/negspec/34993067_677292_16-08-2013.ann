@@ -1,9 +1,0 @@
-T3	SpecSignal 212 215	may
-T4	SpecScope 212 246	may look different when cleaned up
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	NegSignal 281 284	not
-T6	NegScope 281 299	not like chews tho
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	
-T7	SpecSignal 158 171	not look like
-T8	SpecScope 158 197	not look like will need any extractions
-R4	SpecSignal-SpecScope Arg1:T7 Arg2:T8	

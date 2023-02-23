@@ -1,37 +1,0 @@
-09:19:08 ************** - nurse Pre-op check
-
-09:19:10 ************** - Examination- Pre op cehck all fine. TPr norm. Both testes present. Starved overngiht
-
-14:41:54 W*************** - Castration cat (including GA)
-
-14:41:54 **************** - Discount 20%
-
-14:41:54 **************** - Discount 5%
-
-14:42:14 **************** - General anaesthetic Cat &lt;6kg
-
-14:42:14 **************** - Vetergesic (10ml) per ml (CD Schedule 3)
-
-14:42:28 **************** - Sedator (10ml) per ml
-
-14:42:33 **************** - Atipam (10ml) per ml
-
-14:42:38 **************** - Prep procedure fee
-
-14:42:38 **************** - Metacam Inj 0.2% cat (10ml) per ml
-
-14:42:42 **************** - Ketaset Inj per ml (10ml) (CD Schedule 4)
-
-14:43:00 **************** - History- starved overnight, no problems
-premed, sedastart 0.24, vetergeisc 0.2, ketamine 0.15
-routine cat castrate left open
-
-14:43:00 **************** - Plan- see back in 2 days
-
-14:44:07 **************** - Document Created - Post Op Cat Sheffield.doc
-
-16:26:29 ************ - nurse Free of charge appointment
-
-16:26:32 ************ - History- went through after care
-
-

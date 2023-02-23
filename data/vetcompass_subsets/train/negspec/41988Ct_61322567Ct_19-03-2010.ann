@@ -1,3 +1,0 @@
-T1	SpecSignal 216 222	should
-T2	SpecScope 216 253	should be able to pass urine well now
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

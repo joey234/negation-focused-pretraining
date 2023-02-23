@@ -1,4 +1,0 @@
-T1	NegSignal 97 99	no
-T2	NegScope 117 145;97 115	agreement for Â20 per month no more funding to
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-R2	NegSignal-NegScope Arg1:T1 Arg2:T2	

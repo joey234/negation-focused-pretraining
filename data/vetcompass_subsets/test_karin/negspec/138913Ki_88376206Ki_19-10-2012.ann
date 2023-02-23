@@ -1,6 +1,0 @@
-T1	NegScope 33 42	no answer
-T2	NegSignal 33 35	no
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
-T3	NegSignal 44 51	couldnt
-T4	NegScope 44 67	couldnt leave a message
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,9 +1,0 @@
-T1	NegSignal 62 65	not
-T2	NegScope 62 78	not eaten 2 days
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 128 131	not
-T4	NegScope 128 155	not vomited since yesterday
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 176 179	Nad
-T6	NegScope 176 187	Nad on exam
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

@@ -1,6 +1,0 @@
-T1	NegSignal 199 201	No
-T2	NegScope 199 209	No v/d/c/s
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 315 317	No
-T4	NegScope 315 331	No do at 2nd vac
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

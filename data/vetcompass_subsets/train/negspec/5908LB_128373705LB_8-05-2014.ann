@@ -1,9 +1,0 @@
-T1	NegSignal 302 305	not
-T2	NegScope 302 329	not big enough for advocate
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 367 381	no evidence of
-T4	SpecScope 367 387	no evidence of fleas
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 431 434	may
-T6	SpecScope 431 475	may be big enough for advocate at that point
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

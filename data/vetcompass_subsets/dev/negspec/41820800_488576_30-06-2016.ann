@@ -1,6 +1,0 @@
-T1	NegSignal 92 95	nad
-T2	NegScope 77 95	Ht and lungs - nad
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 104 107	nad
-T4	NegScope 98 107	Abd - nad
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

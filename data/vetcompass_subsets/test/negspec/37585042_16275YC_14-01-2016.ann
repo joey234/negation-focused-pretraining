@@ -1,3 +1,0 @@
-T1	NegSignal 63 65	no
-T2	NegScope 63 85	no worries or concerns
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

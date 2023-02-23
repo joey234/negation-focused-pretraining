@@ -1,6 +1,0 @@
-T1	SpecSignal 195 198	may
-T2	SpecScope 195 221	may cause hypersensitivity
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 739 743	poss
-T4	SpecScope 739 791	poss larynx infection caused by sever dental disease
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

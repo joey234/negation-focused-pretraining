@@ -1,3 +1,0 @@
-T1	NegSignal 20 22	No
-T2	NegScope 20 33	No imp at all
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

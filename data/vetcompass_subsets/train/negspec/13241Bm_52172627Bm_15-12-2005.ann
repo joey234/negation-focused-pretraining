@@ -1,6 +1,0 @@
-T1	SpecSignal 629 632	May
-T3	SpecSignal 436 443	Appears
-T4	SpecScope 436 443;447 465	Appears DH - To Be Unaware
-T2	SpecScope 629 640;644 669	May Require DH - Incontinence Therapy
-R2	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-R1	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

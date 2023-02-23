@@ -1,6 +1,0 @@
-T1	NegSignal 95 98	NAD
-T2	NegScope 92 98	PE NAD
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 51 58	reckons
-T4	SpecScope 51 89	reckons the dental sticks are adequate
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

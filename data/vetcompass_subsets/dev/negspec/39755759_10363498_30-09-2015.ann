@@ -1,5 +1,0 @@
-T1	SpecSignal 236 243	suspect
-T2	SpecScope 236 274	suspect asthma or underlying condition
-T3	SpecSignal 251 253	or
-R1	SpecSignal-SpecScope Arg1:T3 Arg2:T2	
-R2	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

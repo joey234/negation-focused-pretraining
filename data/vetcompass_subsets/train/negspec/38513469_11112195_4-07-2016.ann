@@ -1,3 +1,0 @@
-T1	NegSignal 187 189	no
-T2	NegScope 187 205	no need to recheck
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,3 +1,0 @@
-T1	NegSignal 46 49	not
-T2	NegScope 46 75	not discrete like a haematoma
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

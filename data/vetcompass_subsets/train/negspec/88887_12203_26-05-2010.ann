@@ -1,3 +1,0 @@
-T1	SpecSignal 118 125	suspect
-T2	SpecScope 118 135	suspect gastritis
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

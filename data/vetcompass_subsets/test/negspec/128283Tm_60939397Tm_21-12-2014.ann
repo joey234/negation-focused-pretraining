@@ -1,6 +1,0 @@
-T1	NegSignal 113 115	no
-T2	NegScope 113 127	no improvement
-T3	NegSignal 129 131	no
-T4	NegScope 129 145	no deterioration
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

@@ -1,9 +1,0 @@
-T1	NegSignal 157 161	lack
-T2	NegScope 157 164;166 181	lack of cellular atypia
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 561 567	likely
-T4	SpecScope 561 577	likely low grade
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	NegSignal 784 786	No
-T6	NegScope 784 805	No rota yet next week
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

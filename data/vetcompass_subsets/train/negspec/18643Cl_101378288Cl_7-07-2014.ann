@@ -1,6 +1,0 @@
-T1	NegSignal 84 87	not
-T2	NegScope 84 102	not wearing collar
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 31 34	not
-T4	NegScope 31 42	not swollen
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

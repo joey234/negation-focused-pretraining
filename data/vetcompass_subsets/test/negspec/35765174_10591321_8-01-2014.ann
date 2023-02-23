@@ -1,3 +1,0 @@
-T1	NegSignal 65 67	No
-T2	NegScope 65 96	No need to see unless concerned
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,6 +1,0 @@
-T1	NegSignal 220 223	Not
-T2	NegScope 220 249	Not itchy with skin generally
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 378 380	No
-T4	NegScope 378 424	No poo accumulation from Small perineal hernia
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

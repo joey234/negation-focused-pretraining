@@ -1,3 +1,0 @@
-T1	NegSignal 56 59	Nad
-T2	NegScope 56 67	Nad on clin
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

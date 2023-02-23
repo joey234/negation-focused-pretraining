@@ -1,6 +1,0 @@
-T1	NegSignal 51 53	no
-T2	NegScope 51 57	no vom
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 139 145	Unable
-T4	NegScope 139 164	Unable to give injections
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

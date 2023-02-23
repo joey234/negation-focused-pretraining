@@ -1,3 +1,0 @@
-T1	NegSignal 103 106	Nad
-T2	NegScope 103 112	Nad on ex
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

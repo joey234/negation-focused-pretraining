@@ -1,8 +1,0 @@
-T1	SpecSignal 264 271	suspect
-T2	SpecScope 264 287	suspect possible lipoma
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 463 466	may
-T4	SpecScope 463 477	may drink more
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 272 280	possible
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T2	

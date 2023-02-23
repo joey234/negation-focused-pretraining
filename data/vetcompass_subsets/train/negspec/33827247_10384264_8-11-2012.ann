@@ -1,3 +1,0 @@
-T1	NegSignal 266 269	Nad
-T2	NegScope 266 275	Nad on ce
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

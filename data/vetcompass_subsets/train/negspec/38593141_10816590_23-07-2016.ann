@@ -1,3 +1,0 @@
-T1	NegSignal 156 159	NAD
-T2	NegScope 142 159	Clinical exam NAD
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

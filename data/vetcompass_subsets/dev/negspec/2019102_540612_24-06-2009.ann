@@ -1,9 +1,0 @@
-T1	SpecSignal 190 198	not sure
-T2	SpecScope 190 217	not sure if anal glands etc
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 325 331	unable
-T4	NegScope 325 359	unable to pass any further motions
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 390 394	Poss
-T6	SpecScope 390 405	Poss of maggots
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

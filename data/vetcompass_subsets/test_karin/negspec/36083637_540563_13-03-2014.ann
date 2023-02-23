@@ -1,9 +1,0 @@
-T1	NegScope 224 243	Not itchy with skin
-T2	NegSignal 224 227	Not
-T3	SpecScope 358 386	improvement perhaps 30% only
-T4	SpecSignal 370 377	perhaps
-R1	SpecSignal-SpecScope Arg1:T4 Arg2:T3	
-R2	NegSignal-NegScope Arg1:T2 Arg2:T1	
-T5	NegScope 389 408	No poo accumulation
-T6	NegSignal 389 391	No
-R3	NegSignal-NegScope Arg1:T6 Arg2:T5	

@@ -1,9 +1,0 @@
-T1	NegSignal 201 204	not
-T2	NegScope 201 221	not dealing with HCM
-T5	SpecSignal 436 445	check for
-T6	SpecScope 436 455	check for narrowing
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-R2	SpecSignal-SpecScope Arg1:T5 Arg2:T6	
-T3	SpecSignal 63 72	indicated
-T4	SpecScope 63 96	indicated the heart is working ok
-R3	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

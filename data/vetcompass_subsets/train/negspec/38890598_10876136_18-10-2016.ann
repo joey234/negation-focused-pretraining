@@ -1,3 +1,0 @@
-T1	NegSignal 186 191	don't
-T2	NegScope 186 213	don't look swollen any more
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,3 +1,0 @@
-T1	NegScope 45 70	can't come any other time
-T2	NegSignal 45 50	can't
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

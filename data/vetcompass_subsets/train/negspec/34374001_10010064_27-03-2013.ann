@@ -1,3 +1,0 @@
-T1	SpecSignal 192 211	No current evidence
-T2	SpecScope 192 221	No current evidence infection
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,8 +1,0 @@
-T1	SpecSignal 321 328	suspect
-T2	SpecScope 321 364	suspect possible breakdown of part of wound
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 295 306	bno sign of
-T4	SpecScope 295 316	bno sign of infection
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 329 337	possible
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T2	

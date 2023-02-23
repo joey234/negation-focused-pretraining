@@ -1,6 +1,0 @@
-T1	NegSignal 27 29	no
-T2	NegScope 27 38	no swelling
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 46 48	No
-T4	NegScope 46 66	No need to come back
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

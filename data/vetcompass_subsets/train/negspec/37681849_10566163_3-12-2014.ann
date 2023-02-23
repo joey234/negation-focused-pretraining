@@ -1,6 +1,0 @@
-T1	NegSignal 20 22	No
-T2	NegScope 20 49	No longer swelling or weeping
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 74 80	should
-T4	SpecScope 74 91	should settle now
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

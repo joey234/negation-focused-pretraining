@@ -1,3 +1,0 @@
-T1	NegSignal 579 584	never
-T2	NegScope 579 605	never grown back propoerly
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

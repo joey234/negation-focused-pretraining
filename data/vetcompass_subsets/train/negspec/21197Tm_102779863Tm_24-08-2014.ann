@@ -1,3 +1,0 @@
-T1	NegSignal 374 377	nad
-T2	NegScope 371 377	ce nad
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

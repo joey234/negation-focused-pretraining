@@ -1,3 +1,0 @@
-T1	SpecSignal 139 142	May
-T2	SpecScope 139 167	May damage certain materials
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

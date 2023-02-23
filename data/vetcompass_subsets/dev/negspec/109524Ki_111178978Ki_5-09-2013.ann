@@ -1,3 +1,0 @@
-T1	SpecScope 664 675	suspect fad
-T2	SpecSignal 664 671	suspect
-R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	

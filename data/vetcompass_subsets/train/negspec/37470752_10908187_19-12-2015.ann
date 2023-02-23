@@ -1,3 +1,0 @@
-T1	NegSignal 75 78	nad
-T2	NegScope 71 78	Ghc nad
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,6 +1,0 @@
-T1	NegSignal 53 55	No
-T2	NegScope 53 73	No history available
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 274 283	Hopefully
-T4	SpecScope 274 305	Hopefully will settle haematoma
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

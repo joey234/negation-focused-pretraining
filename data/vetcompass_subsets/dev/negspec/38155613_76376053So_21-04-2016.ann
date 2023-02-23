@@ -1,3 +1,0 @@
-T1	NegSignal 87 90	not
-T2	NegScope 87 106	not seen in last 8m
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

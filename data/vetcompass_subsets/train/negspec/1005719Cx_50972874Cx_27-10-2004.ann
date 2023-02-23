@@ -1,3 +1,0 @@
-T1	NegScope 126 154	NO LONGER BE SEEN HERE AGAIN
-T2	NegSignal 126 135	NO LONGER
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

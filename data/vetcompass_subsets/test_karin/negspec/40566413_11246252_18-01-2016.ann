@@ -1,3 +1,0 @@
-T1	NegScope 83 99	dont let outside
-T2	NegSignal 85 87	nt
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

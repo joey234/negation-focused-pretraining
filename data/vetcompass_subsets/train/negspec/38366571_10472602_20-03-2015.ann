@@ -1,3 +1,0 @@
-T1	NegSignal 18 21	not
-T2	NegScope 18 34	not applied prev
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

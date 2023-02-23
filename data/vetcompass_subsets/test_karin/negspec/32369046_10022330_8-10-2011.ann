@@ -1,9 +1,0 @@
-T1	NegScope 0 43	No longer any corneal uptake of fluorescein
-T2	NegSignal 0 9	No longer
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	
-T3	SpecScope 85 119	may just be scar tissue from ulcer
-T4	SpecSignal 85 96	may just be
-T5	SpecScope 121 144	bear sequestrum in mind
-T6	SpecSignal 121 125;137 144	bear in mind
-R2	SpecSignal-SpecScope Arg1:T4 Arg2:T3	
-R3	SpecSignal-SpecScope Arg1:T6 Arg2:T5	

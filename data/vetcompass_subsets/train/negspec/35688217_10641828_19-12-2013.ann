@@ -1,9 +1,0 @@
-T1	NegSignal 9 11	no
-T2	NegScope 9 20	no problems
-T3	NegSignal 106 108	No
-T4	NegScope 106 119	No hernia etc
-R1	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 171 173	No
-T6	NegScope 171 179	No probs
-R2	NegSignal-NegScope Arg1:T5 Arg2:T6	
-R3	NegSignal-NegScope Arg1:T1 Arg2:T2	

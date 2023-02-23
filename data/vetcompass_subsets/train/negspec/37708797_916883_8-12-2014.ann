@@ -1,3 +1,0 @@
-T1	NegSignal 85 87	no
-T2	NegScope 85 112	no obviious meniscal damage
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

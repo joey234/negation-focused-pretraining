@@ -1,3 +1,0 @@
-T1	NegSignal 281 286	hasnt
-T2	NegScope 281 310	hasnt been measuring out food
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,3 +1,0 @@
-T1	NegScope 40 48	No probs
-T2	NegSignal 40 42	No
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

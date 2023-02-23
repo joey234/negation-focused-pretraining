@@ -1,6 +1,0 @@
-T1	NegSignal 50 53	not
-T2	NegScope 50 59	not itchy
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 60 66	should
-T4	SpecScope 60 81	should grow out of it
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

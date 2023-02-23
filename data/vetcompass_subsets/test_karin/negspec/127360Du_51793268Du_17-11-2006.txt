@@ -1,17 +1,0 @@
-*** - 1 x primary +2nd vac health check-cat      0.00
-
-*** - 1 x Nobivac Tricat + Solvent               0.00
-
-*** - - Dosage: nob
-
-*** - -              2
-
-*** - 1 x 1                                      0.00
-
-*** - 1 x Microchip Biothermo                   25.00
-
-*** - 2nd vac aok
-
-** - Payment By Mastercard  Ref: **                25.00
-
-

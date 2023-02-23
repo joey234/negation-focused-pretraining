@@ -1,6 +1,0 @@
-T1	NegSignal 24 30	cannot
-T2	NegScope 24 46	cannot do prescription
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 84 87	not
-T4	NegScope 78 93	Owner not happy
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

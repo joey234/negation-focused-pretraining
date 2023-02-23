@@ -1,16 +1,0 @@
-  1    ga 2(11-25kg ind+gas)                   48.99
-  1    ga 7b propofol per vial                 17.31
-  0.05 surgery time DOG per hour                8.91
-  1    dress a4(light dressing)                 8.45
- 10    synuloxb 250mg                          14.52
-   "1 twice a day"                            
-  1.5  Synulox Inj                              3.87
- -1.2  Benefit Discount 12%                   -12.23
-GA PROPOFOL , NO NEED FOR GAS AS PROCEDURE SO QUICK
-
-lateral nail left fore practically fell odd , nail cut 
-back to level of skin to prevent granulaoma formation , 
-cauterized and light dressing applied
-
-Plan ; home on abs remove dressing after 2 days
-  1    Brush Double Sided Dog                   7.65

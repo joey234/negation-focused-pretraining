@@ -1,9 +1,0 @@
-T1	SpecSignal 636 642	unsure
-T2	SpecScope 636 642;646 660	unsure AC - aetiology
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 661 664	may
-T4	SpecScope 661 687	may be inflammatory tissue
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 700 709	concerned
-T6	SpecScope 700 721	concerned re neoplasm
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

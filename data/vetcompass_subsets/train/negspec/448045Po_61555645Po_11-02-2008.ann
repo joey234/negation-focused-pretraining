@@ -1,3 +1,0 @@
-T1	NegSignal 245 247	no
-T2	NegScope 245 256	no hx probs
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

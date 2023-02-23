@@ -1,6 +1,0 @@
-T1	SpecScope 166 180	R ibnguineal??
-T2	SpecSignal 178 180	??
-T3	NegScope 248 272	no ppaerwork to say this
-T4	NegSignal 248 250	no
-R1	SpecSignal-SpecScope Arg1:T2 Arg2:T1	
-R2	NegSignal-NegScope Arg1:T4 Arg2:T3	

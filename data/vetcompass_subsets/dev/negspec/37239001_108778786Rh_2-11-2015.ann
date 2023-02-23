@@ -1,8 +1,0 @@
-T1	SpecSignal 49 54	think
-T2	SpecScope 49 89	think o was saying it's prob time to pts
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 268 274	thinks
-T4	SpecScope 268 289	thinks is time to pts
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 73 77	prob
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T2	

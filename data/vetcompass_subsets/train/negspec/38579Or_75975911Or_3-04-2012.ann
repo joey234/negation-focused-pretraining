@@ -1,3 +1,0 @@
-T1	NegSignal 425 431	cannot
-T2	NegScope 425 442	cannot come today
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

@@ -1,9 +1,0 @@
-T1	SpecSignal 205 208	May
-T2	SpecScope 205 227	May need catheterising
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	
-T3	NegSignal 286 289	not
-T4	NegScope 286 304	not a direct claim
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	NegSignal 403 406	not
-T6	NegScope 403 425	not fit for travelling
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

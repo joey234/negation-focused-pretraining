@@ -1,3 +1,0 @@
-T1	SpecSignal 255 258	may
-T2	SpecScope 255 310	may take a few days to be fully back to his normal self
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,6 +1,0 @@
-T1	NegSignal 654 657	-ve
-T2	NegScope 648 657	fluro -ve
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	SpecSignal 745 746	?
-T4	SpecScope 724 746	mild reaction to vacc?
-R2	SpecSignal-SpecScope Arg1:T3 Arg2:T4	

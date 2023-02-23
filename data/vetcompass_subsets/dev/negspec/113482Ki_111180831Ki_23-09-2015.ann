@@ -1,9 +1,0 @@
-T1	NegSignal 653 655	no
-T2	NegScope 653 673	no problems reported
-T3	SpecSignal 586 591	think
-T4	SpecScope 586 614	think she is an ideal weight
-R1	SpecSignal-SpecScope Arg1:T3 Arg2:T4	
-R2	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T5	NegSignal 474 477	NAD
-T6	NegScope 474 477	NAD
-R3	NegSignal-NegScope Arg1:T5 Arg2:T6	

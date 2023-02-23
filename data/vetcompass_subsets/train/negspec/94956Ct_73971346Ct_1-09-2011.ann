@@ -1,9 +1,0 @@
-T1	NegSignal 498 500	no
-T2	NegScope 498 509	no vomiting
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 511 513	no
-T4	NegScope 511 523	no diarrhoea
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
-T5	SpecSignal 525 528	may
-T6	SpecScope 525 564	may have licked some paint 48 hours ago
-R3	SpecSignal-SpecScope Arg1:T5 Arg2:T6	

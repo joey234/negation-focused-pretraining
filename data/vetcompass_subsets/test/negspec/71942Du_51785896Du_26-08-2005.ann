@@ -1,3 +1,0 @@
-T1	NegSignal 230 233	not
-T2	NegScope 230 243	not quite 10w
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

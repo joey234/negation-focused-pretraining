@@ -1,3 +1,0 @@
-T1	NegSignal 44 47	NAD
-T2	NegScope 44 47	NAD
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

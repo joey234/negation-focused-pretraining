@@ -1,3 +1,0 @@
-T1	NegScope 28 50	Non Surgical procedure
-T2	NegSignal 28 31	Non
-R1	NegSignal-NegScope Arg1:T2 Arg2:T1	

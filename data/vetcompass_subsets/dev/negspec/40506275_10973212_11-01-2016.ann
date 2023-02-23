@@ -1,3 +1,0 @@
-T1	SpecSignal 82 88	sounds
-T2	SpecScope 76 96	chest sounds cleared
-R1	SpecSignal-SpecScope Arg1:T1 Arg2:T2	

@@ -1,6 +1,0 @@
-T1	NegSignal 647 655	negative
-T2	NegScope 636 655	eyes fluro negative
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 595 597	no
-T4	NegScope 595 600	no Mm
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	

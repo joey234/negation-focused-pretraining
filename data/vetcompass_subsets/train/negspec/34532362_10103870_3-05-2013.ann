@@ -1,3 +1,0 @@
-T1	NegSignal 136 138	No
-T2	NegScope 136 158	No other skin problems
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

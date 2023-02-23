@@ -1,3 +1,0 @@
-T1	NegSignal 233 240	without
-T2	NegScope 233 251	without incidences
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	

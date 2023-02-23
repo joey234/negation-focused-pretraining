@@ -1,6 +1,0 @@
-T1	NegSignal 8 10	No
-T2	NegScope 8 17	No Better
-R1	NegSignal-NegScope Arg1:T1 Arg2:T2	
-T3	NegSignal 63 68	didnt
-T4	NegScope 53 89	pro kolin didnt have any improvement
-R2	NegSignal-NegScope Arg1:T3 Arg2:T4	
