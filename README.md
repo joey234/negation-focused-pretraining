@@ -3,13 +3,15 @@ Code and Data for the paper Improving negation detection with negation-focused p
 
 ## Instruction
 
+- Adaptive pre-training code is in ``pretraining`` directory
+- Run negation detection pipeline: ``sh run.sh``
+
+
+## Checkpoints and data
+
 - Negation detection dataset is in ``/data`` directory
 - Negation-focused data is in available at https://drive.google.com/file/d/16HTWCM2GUoRlPPs7RcZNEEObpQED_PNM/view?usp=sharing
-
-
-## Checkpoints
 - CueNB is available at https://huggingface.co/joey234/cuenb
-
 
 
 ## Acknowledgement
